@@ -1,0 +1,13 @@
+>>> from mocker import Mocker
+>>> from itertools import islice
+>>> mocker = Mocker()
+>>> generator = mocker.mock()
+>>> generator(12) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.generate([16, 31, 24, 'hike'])
+
+>>> mocker.replay()
+>>> tuple(islice(generator(12), 1, 2))
+(31,)
+>>> mocker.restore()
+>>> mocker.verify()

@@ -1,0 +1,37 @@
+As a system administrator
+I want to login to Django's admin page
+So that I can check the product catalog.
+
+***Test Cases***
+Logging in to the admin page
+  Open Browser  http://localhost:8000/admin
+  Input text  username  gturnquist
+  Input text  password  password
+  Submit form
+  Page Should Contain Link  Products
+  Close All Browsers
+
+Check product catalog
+  Given that I am logged in
+  Click link  Products
+  Capture Page Screenshot  recipe43-scenario2-1.png
+  Table Should Contain  result_list  Robots Attack!
+  Table Row Should Contain  result_list  4  Robots Attack!
+  Table Row Should Contain  result_list  4  7.99
+  Close All Browsers
+
+***Keywords***
+Given that I am logged in
+  Open Browser  http://localhost:8000/admin/
+  Input text  username  gturnquist
+  Input text  password  password
+  Submit form
+
+Startup
+  Start Selenium Server
+  Sleep  3s
+
+***Settings***
+Library         SeleniumLibrary
+Suite Setup     Startup
+Suite Teardown  Stop Selenium Server

@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>SIR Solver</title>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+
+<script language="JavaScript">
+
+function setimgsrc()
+    {
+    var cgiscript = "cgi-bin/sir_png.py";
+    var values = "";
+    values = values + "?" + "alpha=" + document.getElementById("alpha").value;
+    values = values + "&" + "gamma=" + document.getElementById("gamma").value;
+    values = values + "&" + "S0=" + document.getElementById("S0").value;
+    values = values + "&" + "I0=" + document.getElementById("I0").value;
+    values = values + "&" + "R0=" + document.getElementById("R0").value;
+    values = values + "&" + "duration=" + document.getElementById("duration").value;
+    document.solutionplot.src = cgiscript + values;
+    }
+
+</script>
+</head>
+<body>
+<h3 align="center">Solver for the SIR Epidemic Model</h3>
+<center>
+Warren Weckesser<br />
+<a href="http://www.enthought.com/">www.enthought.com</a>
+</center>
+<br>
+<hr />
+<p>
+<center>
+This form allows you to solve the differential equations of the
+<a href="http://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology">SIR model</a>
+of the spread of a disease.
+</center>
+<br>
+<center>
+<table class="eqn">
+  <tr>
+  <td>S'(t)</td>
+  <td>=</td>
+  <td>- &alpha; S I</td>
+  </tr>
+  <tr>
+  <td>I'(t)</td>
+  <td>=</td>
+  <td>&alpha; S I - &gamma; I</td>
+  </tr>
+  <tr>
+  <td>R'(t)</td>
+  <td>=</td>
+  <td>&gamma; I</td>
+  </tr>
+</table>
+<hr>
+<p>
+Enter the following data, then click
+on <b>Show Solution</b>.
+</p>
+<table>
+<tr>
+<td valign="top">
+  <i>Parameters:</i> &nbsp;&nbsp;&nbsp;
+  <br />
+  <table>
+  <tr>
+  <td> &alpha;</td>
+  <td> = </td>
+  <td> <input id="alpha" value="2.0" size="5" type="real"> </td>
+  </tr>
+  <tr>
+  <td> &gamma; </td>
+  <td> = </td>
+  <td> <input id="gamma" value="1.0" size="5" type="real"> </td>
+  </tr>
+  </table>
+</td>
+<td valign="top">
+  <i>Initial conditions:</i> &nbsp;&nbsp;&nbsp;
+  <br />
+  <table>
+  <tr>
+  <td> S(0) </td>
+  <td> = </td>
+  <td> <input id="S0" value="0.995" size="5" type="real"> </td>
+  </tr>
+  <tr>
+  <td> I(0) </td>
+  <td> = </td>
+  <td> <input id="I0" value="0.005" size="5" type="real"> </td>
+  </tr>
+  <tr>
+  <td> R(0) </td>
+  <td> = </td>
+  <td> <input id="R0" value="0.0" size="5" type="real"> </td>
+  </tr>
+  </table>
+</td>
+<td valign="top">
+  <i>Time:</i>
+  <br />
+  <input id="duration" value="20.0" size="5" type="real">
+</td>
+</table>
+<center>
+<input value="Show Solution" type="button" onclick="javascript:setimgsrc()">
+</center>
+<img name="solutionplot" src="">
+</center>
+</body>
+</html>

@@ -1,0 +1,41 @@
+>>> from cart import *
+
+>>> cart = ShoppingCart()
+
+#when we add an item
+>>> cart.add("carton of milk", 2.50) #doctest:+ELLIPSIS
+<cart.ShoppingCart object at ...>
+
+#the first item is a carton of milk
+>>> cart.item(1)
+'carton of milk'
+
+#the first price is $2.50
+>>> cart.price(1)
+2.5
+
+#there is only one item
+>>> len(cart)
+1
+
+This shopping cart let's us grab more than one
+of a particular item.
+#when we add a second carton of milk
+>>> cart.add("carton of milk", 2.50) #doctest:+ELLIPSIS
+<cart.ShoppingCart object at ...>
+
+#the first item is still a carton of milk
+>>> cart.item(1)
+'carton of milk'
+
+#but the price is now $5.00
+>>> cart.price(1)
+5.0
+
+#and the cart now has 2 items
+>>> len(cart)
+2
+
+#for a total (with 10% taxes) of $5.50
+>>> cart.total(10.0)
+5.5

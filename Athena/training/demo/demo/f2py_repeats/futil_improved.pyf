@@ -1,0 +1,21 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module futil ! in 
+    interface  ! in :futil
+        subroutine dqsort(n,arr) ! in :futil:futil2.f
+            integer optional,intent(hide),depend(arr) :: n=len(arr)
+            real*8 dimension(n),intent(in,out,copy) :: arr
+        end subroutine dqsort
+        subroutine dfreps(arr,n,replist,repnum,nlist) ! in :futil:futil2.f
+            real*8 dimension(n),intent(in) :: arr
+            integer optional,intent(hide),depend(arr) :: n=len(arr)
+            real*8 dimension(n),intent(out),depend(n) :: replist
+            integer dimension(n),intent(out),depend(n) :: repnum
+            integer intent(out) :: nlist
+        end subroutine dfreps
+    end interface 
+end python module futil
+
+! This file was auto-generated with f2py (version:2_3552).
+! See http://cens.ioc.ee/projects/f2py2e/

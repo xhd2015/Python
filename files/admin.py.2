@@ -1,0 +1,12 @@
+from mysite.python_hol.models import Employee, Job
+from django.contrib import admin
+
+class EmployeeAdmin(admin.ModelAdmin):
+    list_display = ('first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'salary')
+    list_filter = ['hire_date']
+    search_fields = ['last_name']
+    date_hierarchy = 'hire_date'
+
+admin.site.register(Employee, EmployeeAdmin)
+
+admin.site.register(Job)

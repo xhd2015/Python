@@ -1,0 +1,16 @@
+>>> from mocker import Mocker
+>>> from sys import stdout
+>>> mocker = Mocker()
+>>> obj = mocker.mock()
+>>> obj.method() # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.call((lambda: stdout.write('hi')))
+>>> mocker.call((lambda: stdout.write('yo\n')))
+>>> mocker.result(5)
+
+>>> mocker.replay()
+>>> obj.method()
+hiyo
+5
+>>> mocker.restore()
+>>> mocker.verify()

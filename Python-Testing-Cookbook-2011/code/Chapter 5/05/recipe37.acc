@@ -1,0 +1,21 @@
+As a system administrator
+I want to login to Django's admin page
+So that I can check the product catalog.
+
+Scenario 1 - Logging in to the admin page
+Given
+    I go to "http://localhost:8000/admin"
+When
+    I fill "username" textbox with "gturnquist"
+    And I fill "password" textbox with "password"
+    And I click "login" button and wait
+Then
+    I see that current page contains "<a href="product/product/">Products</a>"
+
+Scenario 2 - Check product catalog
+Given
+    I am logged in with username "gturnquist" and password "password"
+When
+    I click "Products" link and wait
+Then
+    I see that current page contains "robot-attack"

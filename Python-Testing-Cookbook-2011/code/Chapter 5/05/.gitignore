@@ -1,0 +1,8 @@
+report.html
+log.html
+*.xml
+cart.db
+*.png
+selenium_server_log.txt
+recipe44_selenium_log.txt
+

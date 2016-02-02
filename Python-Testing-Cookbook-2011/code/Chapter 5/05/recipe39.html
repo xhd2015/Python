@@ -1,0 +1,137 @@
+<html>
+<body>
+
+	<p>This file shows a set of test cases based on varying parameters.</p>
+
+	<table border="1">
+		<tr>
+			<th>Test Case</th>
+			<th />
+			<th>Item 1</th>
+			<th>Price 1</th>
+			<th>Item 2</th>
+			<th>Price 2</th>
+			<th>Tax Rate</th>
+			<th>Total</th>
+		</tr>
+
+		<tr>
+			<td>Adding two items of the same kind with no sales tax</td>
+			<td>Adding items to cart</td>
+			<td>frozen pizza</td>
+			<td>2.50</td>
+			<td>frozen pizza</td>
+			<td>2.50</td>
+			<td>0.0</td>
+			<td>5.00</td>
+		</tr>
+                <tr>
+                        <td>Adding two items of the same kind with sales tax</td>
+			<td>Adding items to cart</td>
+                        <td>frozen pizza</td>
+                        <td>2.50</td>
+                        <td>frozen pizza</td>
+                        <td>2.50</td>
+                        <td>10.0</td>
+                        <td>5.50</td>
+                </tr>
+                <tr>
+                        <td>Adding two different items with no sales tax</td>
+                        <td>Adding items to cart</td>
+                        <td>frozen pizza</td>
+                        <td>2.50</td>
+                        <td>carton of milk</td>
+                        <td>3.50</td>
+                        <td>0.0</td>
+                        <td>6.00</td>
+                </tr>
+                <tr>
+                        <td>Adding two different items with sales tax</td>
+                        <td>Adding items to cart</td>
+                        <td>frozen pizza</td>
+                        <td>2.50</td>
+                        <td>carton of milk</td>
+                        <td>3.50</td>
+                        <td>10.0</td>
+                        <td>6.60</td>
+                </tr>
+
+	</table>
+
+	<p>This table requires some custom keywords to implement these tests.</p>
+
+	<table border="1">
+		<tr>
+			<th>Keyword</th>
+			<th>Action</th>
+			<th>Argument</th>
+			<th>Argument</th>
+			<th>Argument</th>
+			<th>Argument</th>
+			<th>Argument</th>
+			<th>Argument</th>
+		</tr>
+		<tr>
+			<td>Adding items to cart</td>
+			<td>[Arguments]</td>
+			<td>${item1}</td>
+			<td>${price1}</td>
+			<td>${item2}</td>
+			<td>${price2}</td>
+			<td>${tax}</td>
+			<td>${total}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>Add item</td>
+			<td>${item1}</td>
+			<td>${price1}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>Add item</td>
+			<td>${item2}</td>
+			<td>${price2}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>${calculated total}=</td>
+			<td>Get total</td>
+			<td>${tax}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>Should Be Equal</td>
+			<td>${calculated total}</td>
+			<td>${total}</td>
+		</tr>
+
+		<tr>
+			<td>Add item</td>
+			<td>[Arguments]</td>
+			<td>${description}</td>
+			<td>${price}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>Add item to cart</td>
+			<td>${description}</td>
+			<td>${price}</td>
+		</tr>
+	</table>
+
+	<p>Now let's link in some Python code that wires in the cart.</p>
+
+	<table border="1">
+		<tr>
+			<th>Setting</th>
+			<th>Value</th>
+		</tr>
+		<tr>
+			<td>Library</th>
+			<td>recipe39.py</td>
+		</tr>
+	</table>
+
+</body>
+</html>

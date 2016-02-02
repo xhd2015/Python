@@ -1,0 +1,505 @@
+Downloading/unpacking nosexunit
+  Getting page http://pypi.python.org/simple/nosexunit
+  URLs to search for versions for nosexunit:
+  * http://pypi.python.org/simple/nosexunit/
+  Getting page http://pypi.python.org/simple/nosexunit/
+  Getting page http://nosexunit.sourceforge.net
+  Analyzing links from page http://pypi.python.org/simple/NoseXUnit/
+    Skipping link http://pypi.python.org/packages/2.5/N/NoseXUnit/NoseXUnit-0.3.0c1-py2.5.egg#md5=b9f41b81e25f3b4580685733cb41f247 (from http://pypi.python.org/simple/NoseXUnit/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.6/N/NoseXUnit/NoseXUnit-0.3.3-py2.6.egg#md5=795d9548273d4b08bcd267618eee9330 (from http://pypi.python.org/simple/NoseXUnit/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/N/NoseXUnit/NoseXUnit-0.3.2.zip#md5=8104bd0a8df18d5ae24c7d2283a8ee34 (from http://pypi.python.org/simple/NoseXUnit/), version: 0.3.2
+    Skipping link http://pypi.python.org/packages/2.4/N/NoseXUnit/NoseXUnit-0.2.0a1-py2.4.egg#md5=55521149d3af9790722ab7059e1d36b3 (from http://pypi.python.org/simple/NoseXUnit/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.5/N/NoseXUnit/NoseXUnit-0.3.1-py2.5.egg#md5=c7cab2f48affd315762dcdc290f03aa9 (from http://pypi.python.org/simple/NoseXUnit/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/N/NoseXUnit/NoseXUnit-0.3.0c1.zip#md5=a5e56684407fb6b337b5d81cd0f8584b (from http://pypi.python.org/simple/NoseXUnit/), version: 0.3.0c1
+    Found link http://pypi.python.org/packages/source/N/NoseXUnit/NoseXUnit-0.2.0c1.tar.gz#md5=c910247dedeace927335c6f142b4efa9 (from http://pypi.python.org/simple/NoseXUnit/), version: 0.2.0c1
+    Found link http://pypi.python.org/packages/source/N/NoseXUnit/NoseXUnit-0.3.1.zip#md5=f600ddd56cc0ab78a2b2236451659ed4 (from http://pypi.python.org/simple/NoseXUnit/), version: 0.3.1
+    Found link http://pypi.python.org/packages/source/N/NoseXUnit/NoseXUnit-0.3.3.zip#md5=ed317e8f8e1cf5facae07d3d26d58c05 (from http://pypi.python.org/simple/NoseXUnit/), version: 0.3.3
+    Skipping link http://pypi.python.org/packages/2.4/N/NoseXUnit/NoseXUnit-0.2.0c1-py2.4.egg#md5=6bdbf65bd1449a7ae3454b69e4100cdd (from http://pypi.python.org/simple/NoseXUnit/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/N/NoseXUnit/NoseXUnit-0.2.0a1.tar.gz#md5=1b28329f860dbb7626092b800b4ebc33 (from http://pypi.python.org/simple/NoseXUnit/), version: 0.2.0a1
+    Skipping link http://pypi.python.org/packages/2.5/N/NoseXUnit/NoseXUnit-0.2.0a1-py2.5.egg#md5=705855c5bcc33d13ab3fcdab960d44f9 (from http://pypi.python.org/simple/NoseXUnit/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/N/NoseXUnit/NoseXUnit-0.3.3.tar.gz#md5=82a98914478b65e2af759154e85ce4f1 (from http://pypi.python.org/simple/NoseXUnit/), version: 0.3.3
+    Skipping link http://pypi.python.org/packages/2.5/N/NoseXUnit/NoseXUnit-0.3.2-py2.5.egg#md5=09c9613b9600230571ba6c12f67aaffb (from http://pypi.python.org/simple/NoseXUnit/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.5/N/NoseXUnit/NoseXUnit-0.2.0c1-py2.5.egg#md5=6f5aa99a869283b2471f0a3507d54c20 (from http://pypi.python.org/simple/NoseXUnit/); unknown archive format: .egg
+    Skipping link http://nosexunit.sourceforge.net (from http://pypi.python.org/simple/NoseXUnit/); not a file
+  Analyzing links from page http://nosexunit.sourceforge.net
+    Skipping link https://sourceforge.net/project/showfiles.php?group_id=192367 (from http://nosexunit.sourceforge.net); unknown archive format: .php
+    Skipping link https://sourceforge.net/projects/nosexunit/ (from http://nosexunit.sourceforge.net); not a file
+    Skipping link http://somethingaboutorange.com/mrl/projects/nose/ (from http://nosexunit.sourceforge.net); not a file
+    Skipping link http://nedbatchelder.com/code/modules/coverage.html (from http://nosexunit.sourceforge.net); unknown archive format: .html
+    Skipping link http://www.logilab.org/project/pylint (from http://nosexunit.sourceforge.net); not a file
+    Skipping link http://jra1mw.cvs.cern.ch:8180/cgi-bin/jra1mw.cgi/org.glite.testing.unit/config/JUnitXSchema.xsd?rev=HEAD&content-type=text/vnd.viewcvs-markup (from http://nosexunit.sourceforge.net); unknown archive format: .xsd
+    Skipping link https://hudson.dev.java.net/ (from http://nosexunit.sourceforge.net); not a file
+    Skipping link http://www.atlassian.com/software/bamboo/ (from http://nosexunit.sourceforge.net); not a file
+    Skipping link http://maven.apache.org/surefire/ (from http://nosexunit.sourceforge.net); not a file
+    Skipping link http://www.logilab.org/project/logilab-common (from http://nosexunit.sourceforge.net); not a file
+    Skipping link http://www.logilab.org/project/logilab-astng (from http://nosexunit.sourceforge.net); not a file
+    Skipping link http://kid-templating.org/index.html (from http://nosexunit.sourceforge.net); unknown archive format: .html
+    Skipping link http://pygments.org/ (from http://nosexunit.sourceforge.net); not a file
+    Skipping link http://sourceforge.net/tracker2/?group_id=192367 (from http://nosexunit.sourceforge.net); not a file
+  Using version 0.3.3 (newest of versions: 0.3.3, 0.3.3, 0.3.2, 0.3.1, 0.3.0c1, 0.2.0c1, 0.2.0a1)
+  Downloading from URL http://pypi.python.org/packages/source/N/NoseXUnit/NoseXUnit-0.3.3.zip#md5=ed317e8f8e1cf5facae07d3d26d58c05 (from http://pypi.python.org/simple/NoseXUnit/)
+  Running setup.py egg_info for package nosexunit
+    warning: manifest_maker: standard file '-c' not found
+Requirement already satisfied (use --upgrade to upgrade): nose>=0.11.1 in /Users/gturnquist/ptc/lib/python2.6/site-packages (from nosexunit)
+Downloading/unpacking pylint>=0.18.1 (from nosexunit)
+  Getting page http://pypi.python.org/simple/pylint
+  URLs to search for versions for pylint>=0.18.1 (from nosexunit):
+  * http://pypi.python.org/simple/pylint/
+  Getting page http://www.logilab.org/projects/pylint
+  Getting page http://www.logilab.org/project/pylint
+  Getting page http://www.logilab.org/project/name/pylint
+  Skipping page http://ftp.logilab.org/pub/pylint/pylint-0.15.2.tar.gz (from http://pypi.python.org/simple/pylint/) because of Content-Type: application/x-gzip
+  Analyzing links from page http://pypi.python.org/simple/pylint/
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.23.0.tar.gz#md5=f010eee3289b1af77cd8e8e45fb72829 (from http://pypi.python.org/simple/pylint/), version: 0.23.0
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.21.1.tar.gz#md5=d8a4af1cd292015f73dcfaee90cfb72a (from http://pypi.python.org/simple/pylint/), version: 0.21.1
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.20.0.tar.gz#md5=851353bab77137273228a58ad5b8736b (from http://pypi.python.org/simple/pylint/), version: 0.20.0
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.21.2.tar.gz#md5=cf28b43e27029794d2d82356ae4cafd5 (from http://pypi.python.org/simple/pylint/), version: 0.21.2
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.18.0.tar.gz#md5=8a587156f936a7437638bfdc5ed295ef (from http://pypi.python.org/simple/pylint/), version: 0.18.0
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.18.1.tar.gz#md5=98688330de408551898be5cff29f488b (from http://pypi.python.org/simple/pylint/), version: 0.18.1
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.16.0.tar.gz#md5=c2bbadb32ef1b6ee45c6319a879ebafa (from http://pypi.python.org/simple/pylint/), version: 0.16.0
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.21.3.tar.gz#md5=53b88b99085bb46778d4812629de6648 (from http://pypi.python.org/simple/pylint/), version: 0.21.3
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.21.0.tar.gz#md5=f74d87c9bd53669f7d970f1cd3ab2bcb (from http://pypi.python.org/simple/pylint/), version: 0.21.0
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.22.0.tar.gz#md5=529bd7420417daed343b7805ccbbf5fc (from http://pypi.python.org/simple/pylint/), version: 0.22.0
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.15.2.tar.gz#md5=f57803f772a34f0a11328de84a198369 (from http://pypi.python.org/simple/pylint/), version: 0.15.2
+    Found link http://pypi.python.org/packages/source/p/pylint/pylint-0.19.0.tar.gz#md5=832dc0506a9f7da00ec657679275afae (from http://pypi.python.org/simple/pylint/), version: 0.19.0
+    Skipping link http://www.logilab.org/projects/pylint (from http://pypi.python.org/simple/pylint/); not a file
+    Skipping link http://www.logilab.org/project/name/pylint (from http://pypi.python.org/simple/pylint/); not a file
+    Found link http://ftp.logilab.org/pub/pylint/pylint-0.15.2.tar.gz (from http://pypi.python.org/simple/pylint/), version: 0.15.2
+    Skipping link http://www.logilab.org/projects/common (from http://pypi.python.org/simple/pylint/); not a file
+    Skipping link http://optik.sourceforge.net/ (from http://pypi.python.org/simple/pylint/); not a file
+    Skipping link http://lists.logilab.org/mailman/listinfo/python-projects (from http://pypi.python.org/simple/pylint/); not a file
+    Skipping link mailto:python-projects@logilab.org (from http://pypi.python.org/simple/pylint/); unknown archive format: .org
+    Skipping link http://lists.logilab.org/pipermail/python-projects/ (from http://pypi.python.org/simple/pylint/); not a file
+    Skipping link http://www.logilab.org/projects/astng (from http://pypi.python.org/simple/pylint/); not a file
+  Analyzing links from page http://www.logilab.org/857
+    Skipping link http://www.logilab.org/ (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/datac979119e778130d00a5c52d3f3152c5b/favicon.ico (from http://www.logilab.org/857); unknown archive format: .ico
+    Skipping link http://www.logilab.org/project/pylint?vid=rss (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/datac979119e778130d00a5c52d3f3152c5b/cubicweb.old.css (from http://www.logilab.org/857); unknown archive format: .css
+    Skipping link http://www.logilab.org/datac979119e778130d00a5c52d3f3152c5b/cubicweb.print.css (from http://www.logilab.org/857); unknown archive format: .css
+    Skipping link http://www.logilab.org/datac979119e778130d00a5c52d3f3152c5b/cubicweb.login.css (from http://www.logilab.org/857); unknown archive format: .css
+    Skipping link http://www.logilab.org/datac979119e778130d00a5c52d3f3152c5b/cubes.forgotpwd.css (from http://www.logilab.org/857); unknown archive format: .css
+    Skipping link http://www.logilab.org/datac979119e778130d00a5c52d3f3152c5b/ui.tabs.css (from http://www.logilab.org/857); unknown archive format: .css
+    Skipping link http://www.logilab.org/Project (from http://www.logilab.org/857); not a file
+    Skipping link javascript:% acw.htmlhelpers.popupLoginBox%28%27popupLoginBox%27,%20%27__login%27%29; (from http://www.logilab.org/857); unknown archive format: .popupLoginBox%28%27popupLoginBox%27,%20%27__login%27%29;
+    Skipping link http://www.logilab.org/forgottenpassword (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/register (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=document (from http://www.logilab.org/857); not a file
+    Skipping link javascript:%20toggleVisibility%28%27boxmenu_anyrsetview%27%29 (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=csvexport (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=editable-table (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=vcreview.patches.table (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=table (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=rsetxml (from http://www.logilab.org/857); not a file
+    Skipping link javascript:%20toggleVisibility%28%27boxmenu_entityview%27%29 (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=apycottestresults_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=ecsvexport (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=doap (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=filetree (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=linked_data (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=tree (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=list (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=oneline (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=owlabox (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=primary (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=projectdocumentation (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=sameetypelist (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=stats (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=rdf (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=secondary (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=text (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=treeview (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=xbel (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/project/pylint?vid=xml (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/bookmark/933/follow (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/bookmark/2759/follow (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/bookmark/932/follow (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/bookmark/3258/follow (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/bookmark/871/follow (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/bookmark/4621/follow (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/bookmark/2982/follow (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/view?rql=Any%20V%2C%20VN%20ORDERBY%20VN%20DESC%20WHERE%20V%20version_of%20P%2C%20P%20eid%20857%2C%20V%20in_state%20S%2C%20S%20name%20%22published%22%2C%20V%20num%20VN&amp;vid=rss (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/#projectinfo_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/#projectroadmap_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/#projecttickets_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/#apycottestresults_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/#documentation_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/#codebrowser_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/857?rql=Any%20X%20WHERE%20X%20eid%20857&amp;fname=view&amp;vid=projectinfo_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/857?rql=Any%20X%20WHERE%20X%20eid%20857&amp;fname=view&amp;vid=projectroadmap_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/857?rql=Any%20X%20WHERE%20X%20eid%20857&amp;fname=view&amp;vid=projecttickets_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/857?rql=Any%20X%20WHERE%20X%20eid%20857&amp;fname=view&amp;vid=apycottestresults_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/857?rql=Any%20X%20WHERE%20X%20eid%20857&amp;fname=view&amp;vid=documentation_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/857?rql=Any%20X%20WHERE%20X%20eid%20857&amp;fname=view&amp;vid=codebrowser_tab (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/doc/main (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/changelog (from http://www.logilab.org/857); not a file
+    Skipping link http://www.logilab.org/doc/about (from http://www.logilab.org/857); not a file
+    Skipping link http://www.cubicweb.org (from http://www.logilab.org/857); not a file
+  Analyzing links from page http://www.logilab.org/project/pylint
+    Skipping link http://www.logilab.org/project/pylint?rql=Any%20X%2CAA%2CAB%2CAC%2CAD%2CAE%2CAF%2CAG%20WHERE%20X%20name%20%22pylint%22%2C%20X%20is%20Project%2C%20X%20name%20AA%2C%20X%20description%20AB%2C%20X%20description_format%20AC%2C%20X%20summary%20AD%2C%20X%20modification_date%20AE%2C%20X%20homepage%20AF%2C%20X%20summary%20AG&amp;fname=view&amp;vid=projectinfo_tab (from http://www.logilab.org/project/pylint); not a file
+    Skipping link http://www.logilab.org/project/pylint?rql=Any%20X%2CAA%2CAB%2CAC%2CAD%2CAE%2CAF%2CAG%20WHERE%20X%20name%20%22pylint%22%2C%20X%20is%20Project%2C%20X%20name%20AA%2C%20X%20description%20AB%2C%20X%20description_format%20AC%2C%20X%20summary%20AD%2C%20X%20modification_date%20AE%2C%20X%20homepage%20AF%2C%20X%20summary%20AG&amp;fname=view&amp;vid=projectroadmap_tab (from http://www.logilab.org/project/pylint); not a file
+    Skipping link http://www.logilab.org/project/pylint?rql=Any%20X%2CAA%2CAB%2CAC%2CAD%2CAE%2CAF%2CAG%20WHERE%20X%20name%20%22pylint%22%2C%20X%20is%20Project%2C%20X%20name%20AA%2C%20X%20description%20AB%2C%20X%20description_format%20AC%2C%20X%20summary%20AD%2C%20X%20modification_date%20AE%2C%20X%20homepage%20AF%2C%20X%20summary%20AG&amp;fname=view&amp;vid=projecttickets_tab (from http://www.logilab.org/project/pylint); not a file
+    Skipping link http://www.logilab.org/project/pylint?rql=Any%20X%2CAA%2CAB%2CAC%2CAD%2CAE%2CAF%2CAG%20WHERE%20X%20name%20%22pylint%22%2C%20X%20is%20Project%2C%20X%20name%20AA%2C%20X%20description%20AB%2C%20X%20description_format%20AC%2C%20X%20summary%20AD%2C%20X%20modification_date%20AE%2C%20X%20homepage%20AF%2C%20X%20summary%20AG&amp;fname=view&amp;vid=apycottestresults_tab (from http://www.logilab.org/project/pylint); not a file
+    Skipping link http://www.logilab.org/project/pylint?rql=Any%20X%2CAA%2CAB%2CAC%2CAD%2CAE%2CAF%2CAG%20WHERE%20X%20name%20%22pylint%22%2C%20X%20is%20Project%2C%20X%20name%20AA%2C%20X%20description%20AB%2C%20X%20description_format%20AC%2C%20X%20summary%20AD%2C%20X%20modification_date%20AE%2C%20X%20homepage%20AF%2C%20X%20summary%20AG&amp;fname=view&amp;vid=documentation_tab (from http://www.logilab.org/project/pylint); not a file
+    Skipping link http://www.logilab.org/project/pylint?rql=Any%20X%2CAA%2CAB%2CAC%2CAD%2CAE%2CAF%2CAG%20WHERE%20X%20name%20%22pylint%22%2C%20X%20is%20Project%2C%20X%20name%20AA%2C%20X%20description%20AB%2C%20X%20description_format%20AC%2C%20X%20summary%20AD%2C%20X%20modification_date%20AE%2C%20X%20homepage%20AF%2C%20X%20summary%20AG&amp;fname=view&amp;vid=codebrowser_tab (from http://www.logilab.org/project/pylint); not a file
+  Analyzing links from page http://www.logilab.org/project/name/pylint
+  Ignoring link http://pypi.python.org/packages/source/p/pylint/pylint-0.18.0.tar.gz#md5=8a587156f936a7437638bfdc5ed295ef (from http://pypi.python.org/simple/pylint/), version 0.18.0 doesn't match >=0.18.1
+  Ignoring link http://pypi.python.org/packages/source/p/pylint/pylint-0.16.0.tar.gz#md5=c2bbadb32ef1b6ee45c6319a879ebafa (from http://pypi.python.org/simple/pylint/), version 0.16.0 doesn't match >=0.18.1
+  Ignoring link http://pypi.python.org/packages/source/p/pylint/pylint-0.15.2.tar.gz#md5=f57803f772a34f0a11328de84a198369 (from http://pypi.python.org/simple/pylint/), version 0.15.2 doesn't match >=0.18.1
+  Ignoring link http://ftp.logilab.org/pub/pylint/pylint-0.15.2.tar.gz (from http://pypi.python.org/simple/pylint/), version 0.15.2 doesn't match >=0.18.1
+  Using version 0.23.0 (newest of versions: 0.23.0, 0.22.0, 0.21.3, 0.21.2, 0.21.1, 0.21.0, 0.20.0, 0.19.0, 0.18.1)
+  Downloading from URL http://pypi.python.org/packages/source/p/pylint/pylint-0.23.0.tar.gz#md5=f010eee3289b1af77cd8e8e45fb72829 (from http://pypi.python.org/simple/pylint/)
+  Running setup.py egg_info for package pylint
+    running egg_info
+    creating pip-egg-info/pylint.egg-info
+    writing requirements to pip-egg-info/pylint.egg-info/requires.txt
+    writing pip-egg-info/pylint.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/pylint.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/pylint.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/pylint.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    package init file './test/__init__.py' not found (or not a regular file)
+    reading manifest file 'pip-egg-info/pylint.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/pylint.egg-info/SOURCES.txt'
+  Source in /Users/gturnquist/ptc/build/pylint has version 0.23.0, which satisfies requirement pylint>=0.18.1 (from nosexunit)
+Downloading/unpacking coverage==2.85 (from nosexunit)
+  Getting page http://pypi.python.org/simple/coverage
+  URLs to search for versions for coverage==2.85 (from nosexunit):
+  * http://pypi.python.org/simple/coverage/2.85
+  * http://pypi.python.org/simple/coverage/
+  Getting page http://pypi.python.org/simple/coverage/2.85
+  Getting page http://nedbatchelder.com/code/modules/coverage.html
+  Getting page http://nedbatchelder.com/code/coverage
+  Skipping page http://nedbatchelder.com/code/modules/coverage-2.85.tar.gz (from http://pypi.python.org/simple/coverage/) because of Content-Type: application/x-tar
+  Skipping page http://nedbatchelder.com/code/modules/coverage-2.8.tar.gz (from http://pypi.python.org/simple/coverage/) because of Content-Type: application/x-tar
+  Skipping page http://nedbatchelder.com/code/modules/coverage-2.77.tar.gz (from http://pypi.python.org/simple/coverage/) because of Content-Type: application/x-tar
+  Skipping page http://nedbatchelder.com/code/modules/coverage-2.78.tar.gz (from http://pypi.python.org/simple/coverage/) because of Content-Type: application/x-tar
+  Skipping page http://nedbatchelder.com/code/modules/coverage-2.80.tar.gz (from http://pypi.python.org/simple/coverage/) because of Content-Type: application/x-tar
+  Getting page http://nedbatchelder.com/code/coverage/3.4b1
+  Getting page http://nedbatchelder.com/code/coverage/3.4b2
+  Could not fetch URL http://pypi.python.org/simple/coverage/2.85: HTTP Error 404: Not Found (coverage/2.85)
+  Will skip URL http://pypi.python.org/simple/coverage/2.85 when looking for download links for coverage==2.85 (from nosexunit)
+  Analyzing links from page http://pypi.python.org/simple/coverage/
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.4.tar.gz#md5=46782809578c8fd29912c124d2420842 (from http://pypi.python.org/simple/coverage/), version: 3.4
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.0.1.tar.gz#md5=9c40e153a80fc42944c11ce11ab02de5 (from http://pypi.python.org/simple/coverage/), version: 3.0.1
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.3.1.tar.gz#md5=6f5a25ce06baad03ab293990f3a98bb7 (from http://pypi.python.org/simple/coverage/), version: 3.3.1
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.4.win-amd64-py3.1.exe#md5=5e56ceb35b05159daea1a3797b22ada1 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.1.tar.gz#md5=113234cb050a179a3c6e2f11edab46a1 (from http://pypi.python.org/simple/coverage/), version: 3.1
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.4.win32-py3.1.exe#md5=d097a23bd50bbd897dfb7ebfb43dcf19 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.0.tar.gz#md5=aba99cde68916bd3c8c41c8bb874f68b (from http://pypi.python.org/simple/coverage/), version: 3.0
+    Skipping link http://pypi.python.org/packages/3.2/c/coverage/coverage-3.4.win32-py3.2.exe#md5=8f6492d385d6db90d3bee5c8c9cea023 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.0b3.tar.gz#md5=2d6348f9f9ec98ff68f76acb7d7e41c8 (from http://pypi.python.org/simple/coverage/), version: 3.0b3
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.4b1.tar.gz#md5=f8e1c5c5522ac91a42e560f24abd0666 (from http://pypi.python.org/simple/coverage/), version: 3.4b1
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.2b1.tar.gz#md5=63a18c5eb9df34268353337123d0ea1b (from http://pypi.python.org/simple/coverage/), version: 3.2b1
+    Skipping link http://pypi.python.org/packages/2.7/c/coverage/coverage-3.4.win-amd64-py2.7.exe#md5=03df046c7cf6a969a752b99199ac49e9 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.2b4.tar.gz#md5=0f56602092540208b198781716c99390 (from http://pypi.python.org/simple/coverage/), version: 3.2b4
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.1b1.tar.gz#md5=fb117fad4808a036a5a2b9086b2bb9c4 (from http://pypi.python.org/simple/coverage/), version: 3.1b1
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.4.win32-py2.6.exe#md5=c53bd82348cee46fa9250d513808d42f (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.2b3.tar.gz#md5=efffa830fe341385819abdd9ebfd4bc8 (from http://pypi.python.org/simple/coverage/), version: 3.2b3
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.4b2.tar.gz#md5=e9f3b8ab4ddc5924ea999d91eba6de4f (from http://pypi.python.org/simple/coverage/), version: 3.4b2
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.3.tar.gz#md5=73cab5a9a97a03d43a1adc4c405c5a78 (from http://pypi.python.org/simple/coverage/), version: 3.3
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.2.tar.gz#md5=e35935f346eaf5afe5741992cda3a881 (from http://pypi.python.org/simple/coverage/), version: 3.2
+    Skipping link http://pypi.python.org/packages/2.7/c/coverage/coverage-3.4.win32-py2.7.exe#md5=435508269313fa0f732ceaee486b6de1 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/c/coverage/coverage-3.2b2.tar.gz#md5=704786554cd7e6a1e5c44bc78938970c (from http://pypi.python.org/simple/coverage/), version: 3.2b2
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.3.1.win32-py2.6.exe#md5=591f9389ff039ac0092b74b6ae5ef41c (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.0.win32-py2.3.exe#md5=8a1ec0e3cca8da3496b07ffa283095ea (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.2b2.win32-py3.1.exe#md5=94905c74588c63bbc2627518aea74e7a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.1.win32-py2.6.exe#md5=db3065c708dcf8f403430ed7ce55eeed (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.2.win32-py2.3.exe#md5=5a9e0fc5d6489321d7c6969e0f050984 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.2b2.win32-py2.5.exe#md5=6c0d8bfa87838c823ca986a50c148db8 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.3.1.win-amd64-py2.6.exe#md5=c1ed8063583a09259e3f5978fbb997d2 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.0.1.win32-py2.4.exe#md5=5183a850f9aeada2ee35dcf49bde375d (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.2b2.win32-py2.4.exe#md5=c76a0fc3d1f5fd55d08893e8f54f6634 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.3.win-amd64-py2.5.exe#md5=035df564cb1c199c763ca96b025c5c17 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.2b1.win32-py2.4.exe#md5=91c453809527e665b5a73154ca9ade9a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.4.win32-py2.5.exe#md5=56e22379c2ac65f2312e9b7d03925be3 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.1.win32-py2.3.exe#md5=1b47b8c4960742500d9ad8ab053d8bf9 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.3.win-amd64-py2.6.exe#md5=340a7d2fa82c174e1ce79449275fdd02 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.2.win-amd64-py3.1.exe#md5=dcae4af531e538e9cd385824f50d3b12 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.3.win32-py2.4.exe#md5=b2fd0cbbbf77bcc6fb2d532b5646ce66 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.2b3.win32-py3.1.exe#md5=daf755bdeb265c46926a308c4dd9116b (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.2b1.win32-py2.5.exe#md5=a8d6ece21048185992ea9b8eb953ff66 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.0b3.win32-py2.3.exe#md5=8f83b7426ca8cc773abc49e9522a0c76 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.2b4.win32-py2.6.exe#md5=4ca6a4583203d7780f50e0c8352fb382 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.1b1.win32-py2.4.exe#md5=244a94c2fefed45ddedbeed48f7a9cf9 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.0.1.win32-py2.5.exe#md5=96e1cc9c6fe2600e3117315c457593db (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.2b2.win32-py2.6.exe#md5=a5257348e99c94a10b67628fe727901a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.0b3.win32-py2.6.exe#md5=84a0cf7a978643f27fa90f86b43d2ef6 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.2b1.win32-py2.6.exe#md5=d927a1389fa071f3fe9aec4e432ac7f3 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.1.win32-py2.4.exe#md5=a6b9efed3698015cb9211b52caf11688 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.2.win-amd64-py2.6.exe#md5=221e5fe584462f449c0c4a189302a37a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.2/c/coverage/coverage-3.4.win-amd64-py3.2.exe#md5=fee9f5dd62e4954ec91d6efc9db9f629 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.2b2.win32-py2.3.exe#md5=3684c0acbf6fb94e9f97742772418bc6 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.3.win32-py2.3.exe#md5=81d366df57a57ed092a1bcf1cd280a5c (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.2.win32-py2.5.exe#md5=b759e24a99ac1b14f3c59668d5fa3952 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.3.win32-py3.1.exe#md5=751587f3a6b95cc86992b4a68b2bdfbf (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.1.win32-py2.5.exe#md5=8a248d8c03ff9de7d0fb0cd76da87191 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.4.win-amd64-py2.5.exe#md5=6543ddfcb6a2d06e8fe207e84b63b30a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.4b1.win32-py2.5.exe#md5=cb4903cd39660b7df1728d4fe3374a62 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.4b1.win32-py2.4.exe#md5=404620bb389ea7699d7e2b4102d78e7c (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.0.win32-py2.5.exe#md5=55488b86907c18fae67e207d23b9f7c6 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.4b1.win32-py2.3.exe#md5=c7bb5217974ea469ca32a31a6cf0154b (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.4b1.win32-py2.6.exe#md5=d4ea80642c6cd3cea6b6cc352f97064a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.7/c/coverage/coverage-3.4b1.win32-py2.7.exe#md5=74f791c1fd9fc1c3f1d7919e66465b34 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.2b1.win32-py2.3.exe#md5=b5b2d78fa22076d16ecfcc4d2b06ceac (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.3.1.win-amd64-py3.1.exe#md5=07c59fde5379eb4f2f571e99e9a24f21 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.4b2.win32-py2.6.exe#md5=e1976410d8c67f5c34f79e01b74938ad (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.2b4.win32-py2.3.exe#md5=f3823b1663a1d720f26d21930522767a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.0b3.win32-py2.5.exe#md5=8ad827d55b9759732b630a9f28402836 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.0.1.win32-py2.3.exe#md5=2b826f0ca0a9ae001e0809b5b51bb7f6 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.2/c/coverage/coverage-3.4b2.win32-py3.2.exe#md5=50146a4877d86aad63b26d6696205b11 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.1b1.win32-py2.6.exe#md5=e3391e63f59572b3b5d8d9a877c87ec1 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.1.win32-py3.1.exe#md5=b2100f8f0c455f0e984cc7cfdd669315 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.3.win32-py2.5.exe#md5=166997aa0fe6d58c02f2ce8d004bf0b3 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.3.1.win32-py2.4.exe#md5=2787a957d6ceacdf55930a78c97cfcee (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.2b4.win32-py3.1.exe#md5=c078c9cd2f6da44544ab444798d849de (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.4b2.win32-py2.3.exe#md5=bd97d0e41ccaa1a2225e005d337d6c91 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.2b4.win32-py2.4.exe#md5=7a5d14eafa1411cdc3fe2db7f1f2bee7 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.0.win32-py2.4.exe#md5=ca74f6647bbc99606194246855d96aa2 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.0.win32-py2.6.exe#md5=86b65d075932f7fb1681eb57484d2fc2 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.2/c/coverage/coverage-3.4b1.win32-py3.2.exe#md5=beb48b6e8a499173a8a7fe649625066f (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.3.1.win32-py3.1.exe#md5=dceffb03efbfad139d298e9d7424609f (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.2.win32-py3.1.exe#md5=91dafbf68a9c50451acfec66b0b99237 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.1b1.win32-py3.1.exe#md5=e646ae6d28644b7061206bd2d64c6487 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.3.1.win-amd64-py2.5.exe#md5=5c2482a93eeaad26a4a176311ea969f3 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.2b1.win32-py3.1.exe#md5=c3a44207832fd1c4e2ad088cd2cd9443 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.2b3.win32-py2.4.exe#md5=bbf3d8fd9a428ef8c2329a67944d6072 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.4.win32-py2.4.exe#md5=e24757ececaf729df89965febd672729 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.4b2.win32-py3.1.exe#md5=ed79b7944d24a92fdecce02842963dd3 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.7/c/coverage/coverage-3.4b2.win32-py2.7.exe#md5=2b9f3951d64a2138805aa8d196eed3b7 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.4b2.win32-py2.4.exe#md5=d3d4105158324b7378578c5d9e8ffa4c (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.2.win32-py2.6.exe#md5=6453a866a298b8a9fd98920524e5d321 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.1b1.win32-py2.5.exe#md5=e237a8253d175e3c06dbfe60494c6d6b (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.3.1.win32-py2.5.exe#md5=19bea23ce7de458a6342eb0bcdcb60cd (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.2b3.win32-py2.3.exe#md5=27a1bc196bd45516ee574b948622641f (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.4b1.win32-py3.1.exe#md5=8a3cd7243da850e8e3cc0b810eb357e5 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.4.win32-py2.3.exe#md5=0067ff3bed06d0300bbc38760542a473 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/3.1/c/coverage/coverage-3.3.win-amd64-py3.1.exe#md5=611e6e052e65d68067337f21042f8e6a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.3.1.win32-py2.3.exe#md5=6a12369eaf57ba80c014ea5bea74c747 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.2b4.win32-py2.5.exe#md5=8c91cc402ac3a4bd08baab4d04351d0a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.0.1.win32-py2.6.exe#md5=da355e6a284c7b3981a201af1d052e52 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.2b3.win32-py2.5.exe#md5=524454e12a0c0f7f9686871cd302246f (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.0b3.win32-py2.4.exe#md5=70efadebf317d8c0b5a1d7e48eeee17a (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.2b3.win32-py2.6.exe#md5=a4be03a9a8b98617a57459afa6d81db7 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.3/c/coverage/coverage-3.1b1.win32-py2.3.exe#md5=fc95c5c2d7abe4ba55b9cbb59829fea5 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.3.win32-py2.6.exe#md5=3116ad668d5949665b3cfa54e32899e4 (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.4/c/coverage/coverage-3.2.win32-py2.4.exe#md5=9b8644b5c26c864720a7de2df42b152d (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/c/coverage/coverage-3.4.win-amd64-py2.6.exe#md5=e8e59b807c2e2e510a71caa2c13926ac (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/c/coverage/coverage-3.4b2.win32-py2.5.exe#md5=e94959cc97810d21580eb78f87fa83ca (from http://pypi.python.org/simple/coverage/); unknown archive format: .exe
+    Skipping link http://nedbatchelder.com/code/coverage (from http://pypi.python.org/simple/coverage/); not a file
+    Found link http://nedbatchelder.com/code/modules/coverage-2.85.tar.gz (from http://pypi.python.org/simple/coverage/), version: 2.85
+    Found link http://nedbatchelder.com/code/modules/coverage-2.8.tar.gz (from http://pypi.python.org/simple/coverage/), version: 2.8
+    Found link http://nedbatchelder.com/code/modules/coverage-2.77.tar.gz (from http://pypi.python.org/simple/coverage/), version: 2.77
+    Found link http://nedbatchelder.com/code/modules/coverage-2.78.tar.gz (from http://pypi.python.org/simple/coverage/), version: 2.78
+    Found link http://nedbatchelder.com/code/modules/coverage-2.80.tar.gz (from http://pypi.python.org/simple/coverage/), version: 2.80
+    Skipping link http://nedbatchelder.com/code/coverage/3.4b1 (from http://pypi.python.org/simple/coverage/); unknown archive format: .4b1
+    Skipping link http://nedbatchelder.com/code/coverage/3.4b2 (from http://pypi.python.org/simple/coverage/); unknown archive format: .4b2
+    Skipping link http://bitbucket.org/ned/coveragepy (from http://pypi.python.org/simple/coverage/); not a file
+  Analyzing links from page http://nedbatchelder.com/code/coverage/
+    Skipping link http://nedbatchelder.com (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://nedbatchelder.com/style.css (from http://nedbatchelder.com/code/coverage/); unknown archive format: .css
+    Skipping link http://nedbatchelder.com/printstyle.css (from http://nedbatchelder.com/code/coverage/); unknown archive format: .css
+    Skipping link http://nedbatchelder.com/ (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://nedbatchelder.com/blog (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://nedbatchelder.com/code (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://nedbatchelder.com/text (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://nedbatchelder.com/site (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://pypi.python.org/pypi/coverage (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://nedbatchelder.com/code/coverage/install.html#install (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/sample_html (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://nedbatchelder.com/code/coverage/cmd.html#cmd (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/api.html#api (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://somethingaboutorange.com/mrl/projects/nose (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://somethingaboutorange.com/mrl/projects/nose/0.11.1/plugins/cover.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/source.html#source (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/excluding.html#excluding (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/faq.html#faq (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://lists.idyll.org/listinfo/testing-in-python (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://bitbucket.org/ned/coveragepy/issues (from http://nedbatchelder.com/code/coverage/); not a file
+    Skipping link http://nedbatchelder.com/site/aboutned.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/install.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/cmd.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/config.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/api.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/source.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/excluding.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/branch.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/subprocess.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/faq.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/code/coverage/changes.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://susansenator.com/makingpeace.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://susansenator.com/survivalguide.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+    Skipping link http://nedbatchelder.com/site/legal.html (from http://nedbatchelder.com/code/coverage/); unknown archive format: .html
+  Analyzing links from page http://nedbatchelder.com/code/coverage/
+  Analyzing links from page http://nedbatchelder.com/code/coverage/
+  Analyzing links from page http://nedbatchelder.com/code/coverage/
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.4.tar.gz#md5=46782809578c8fd29912c124d2420842 (from http://pypi.python.org/simple/coverage/), version 3.4 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.0.1.tar.gz#md5=9c40e153a80fc42944c11ce11ab02de5 (from http://pypi.python.org/simple/coverage/), version 3.0.1 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.3.1.tar.gz#md5=6f5a25ce06baad03ab293990f3a98bb7 (from http://pypi.python.org/simple/coverage/), version 3.3.1 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.1.tar.gz#md5=113234cb050a179a3c6e2f11edab46a1 (from http://pypi.python.org/simple/coverage/), version 3.1 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.0.tar.gz#md5=aba99cde68916bd3c8c41c8bb874f68b (from http://pypi.python.org/simple/coverage/), version 3.0 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.0b3.tar.gz#md5=2d6348f9f9ec98ff68f76acb7d7e41c8 (from http://pypi.python.org/simple/coverage/), version 3.0b3 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.4b1.tar.gz#md5=f8e1c5c5522ac91a42e560f24abd0666 (from http://pypi.python.org/simple/coverage/), version 3.4b1 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.2b1.tar.gz#md5=63a18c5eb9df34268353337123d0ea1b (from http://pypi.python.org/simple/coverage/), version 3.2b1 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.2b4.tar.gz#md5=0f56602092540208b198781716c99390 (from http://pypi.python.org/simple/coverage/), version 3.2b4 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.1b1.tar.gz#md5=fb117fad4808a036a5a2b9086b2bb9c4 (from http://pypi.python.org/simple/coverage/), version 3.1b1 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.2b3.tar.gz#md5=efffa830fe341385819abdd9ebfd4bc8 (from http://pypi.python.org/simple/coverage/), version 3.2b3 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.4b2.tar.gz#md5=e9f3b8ab4ddc5924ea999d91eba6de4f (from http://pypi.python.org/simple/coverage/), version 3.4b2 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.3.tar.gz#md5=73cab5a9a97a03d43a1adc4c405c5a78 (from http://pypi.python.org/simple/coverage/), version 3.3 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.2.tar.gz#md5=e35935f346eaf5afe5741992cda3a881 (from http://pypi.python.org/simple/coverage/), version 3.2 doesn't match ==2.85
+  Ignoring link http://pypi.python.org/packages/source/c/coverage/coverage-3.2b2.tar.gz#md5=704786554cd7e6a1e5c44bc78938970c (from http://pypi.python.org/simple/coverage/), version 3.2b2 doesn't match ==2.85
+  Ignoring link http://nedbatchelder.com/code/modules/coverage-2.8.tar.gz (from http://pypi.python.org/simple/coverage/), version 2.8 doesn't match ==2.85
+  Ignoring link http://nedbatchelder.com/code/modules/coverage-2.77.tar.gz (from http://pypi.python.org/simple/coverage/), version 2.77 doesn't match ==2.85
+  Ignoring link http://nedbatchelder.com/code/modules/coverage-2.78.tar.gz (from http://pypi.python.org/simple/coverage/), version 2.78 doesn't match ==2.85
+  Ignoring link http://nedbatchelder.com/code/modules/coverage-2.80.tar.gz (from http://pypi.python.org/simple/coverage/), version 2.80 doesn't match ==2.85
+  Downloading coverage-2.85.tar.gz
+  Downloading from URL http://nedbatchelder.com/code/modules/coverage-2.85.tar.gz (from http://pypi.python.org/simple/coverage/)
+  Running setup.py egg_info for package coverage
+    running egg_info
+    creating pip-egg-info/coverage.egg-info
+    writing pip-egg-info/coverage.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/coverage.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/coverage.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/coverage.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/coverage.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/coverage.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/coverage.egg-info/SOURCES.txt'
+  Source in /Users/gturnquist/ptc/build/coverage has version 2.85, which satisfies requirement coverage==2.85 (from nosexunit)
+Downloading/unpacking kid>=0.9.6 (from nosexunit)
+  Getting page http://pypi.python.org/simple/kid
+  URLs to search for versions for kid>=0.9.6 (from nosexunit):
+  * http://pypi.python.org/simple/kid/
+  Getting page http://www.kid-templating.org/
+  Skipping page http://www.kid-templating.org/dist/0.9.3/kid-0.9.3.tar.gz (from http://pypi.python.org/simple/kid/) because of Content-Type: application/octet-stream
+  Getting page http://kid.lesscode.org/
+  Could not fetch URL http://kid.lesscode.org/ (from http://pypi.python.org/simple/kid/): <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  Will skip URL http://kid.lesscode.org/ when looking for download links for kid>=0.9.6 (from nosexunit)
+  Could not fetch URL http://kid.lesscode.org/dist/0.9.1/kid-0.9.1.tar.gz (from http://pypi.python.org/simple/kid/): [Errno 8] nodename nor servname provided, or not known
+  Will skip URL http://kid.lesscode.org/dist/0.9.1/kid-0.9.1.tar.gz when looking for download links for kid>=0.9.6 (from nosexunit)
+  Could not fetch URL http://kid.lesscode.org/dist/0.9/kid-0.9.tar.gz (from http://pypi.python.org/simple/kid/): [Errno 8] nodename nor servname provided, or not known
+  Will skip URL http://kid.lesscode.org/dist/0.9/kid-0.9.tar.gz when looking for download links for kid>=0.9.6 (from nosexunit)
+  Could not fetch URL http://kid.lesscode.org/dist/0.8/kid-0.8.tar.gz (from http://pypi.python.org/simple/kid/): [Errno 8] nodename nor servname provided, or not known
+  Will skip URL http://kid.lesscode.org/dist/0.8/kid-0.8.tar.gz when looking for download links for kid>=0.9.6 (from nosexunit)
+  Could not fetch URL http://kid.lesscode.org/dist/0.7.1/kid-0.7.1.tar.gz (from http://pypi.python.org/simple/kid/): [Errno 8] nodename nor servname provided, or not known
+  Will skip URL http://kid.lesscode.org/dist/0.7.1/kid-0.7.1.tar.gz when looking for download links for kid>=0.9.6 (from nosexunit)
+  Getting page http://lesscode.org/projects/kid/
+  Could not fetch URL http://lesscode.org/projects/kid/ (from http://pypi.python.org/simple/kid/): HTTP Error 404: Not Found
+  Will skip URL http://lesscode.org/projects/kid/ when looking for download links for kid>=0.9.6 (from nosexunit)
+  Skipping page http://lesscode.org/dist/kid/kid-0.6.1.tar.gz (from http://pypi.python.org/simple/kid/) because of Content-Type: 
+  Skipping page http://lesscode.org/dist/kid/kid-0.5.1.tar.gz (from http://pypi.python.org/simple/kid/) because of Content-Type: 
+  Getting page http://kid-template.sourceforge.net/
+  Could not fetch URL http://kid-template.sourceforge.net/ (from http://pypi.python.org/simple/kid/): HTTP Error 404: Not Found
+  Will skip URL http://kid-template.sourceforge.net/ when looking for download links for kid>=0.9.6 (from nosexunit)
+  Skipping page http://prdownloads.sourceforge.net/kid-template/kid-0.4.2.tar.gz (from http://pypi.python.org/simple/kid/) because of Content-Type: 
+  Getting page http://splice.sf.net/kid/
+  Could not fetch URL http://splice.sf.net/kid/ (from http://pypi.python.org/simple/kid/): HTTP Error 404: Not Found
+  Will skip URL http://splice.sf.net/kid/ when looking for download links for kid>=0.9.6 (from nosexunit)
+  Getting page http://prdownloads.sourceforge.net/splice/
+  Could not fetch URL http://prdownloads.sourceforge.net/splice/ (from http://pypi.python.org/simple/kid/): HTTP Error 404: Not Found
+  Will skip URL http://prdownloads.sourceforge.net/splice/ when looking for download links for kid>=0.9.6 (from nosexunit)
+  Skipping page http://lesscode.org/dist/kid/kid-0.6.3.tar.gz (from http://pypi.python.org/simple/kid/) because of Content-Type: 
+  Analyzing links from page http://pypi.python.org/simple/kid/
+    Found link http://pypi.python.org/packages/source/k/kid/kid-0.9.3.tar.gz#md5=8e2ebb99a7ad83671ffe799f2168c030 (from http://pypi.python.org/simple/kid/), version: 0.9.3
+    Skipping link http://pypi.python.org/packages/2.5/k/kid/kid-0.9.4-py2.5.egg#md5=537c9ee9b978989ea07b20d1e9c629a9 (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.5/k/kid/kid-0.9.5-py2.5.egg#md5=e372cbddc27f1174e07d97873496cc8a (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.3/k/kid/kid-0.9.2-py2.3.egg#md5=0b0361843c7c69efb78ac3fd2765b354 (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.3/k/kid/kid-0.9.1-py2.3.egg#md5=62b478902bc79cf3550229cf240eaa53 (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.4/k/kid/kid-0.9.4-py2.4.egg#md5=b92647bdc2bdadafacf049bb5752950f (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/k/kid/kid-0.9.5.tar.gz#md5=bdc37be234c1a03c4355ecc566cd86ad (from http://pypi.python.org/simple/kid/), version: 0.9.5
+    Skipping link http://pypi.python.org/packages/2.5/k/kid/kid-0.9.6-py2.5.egg#md5=3fc089344a884e7fc954b239a32c649f (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.3/k/kid/kid-0.9-py2.3.egg#md5=dfb4e162f072cc3100256a148e62dd3e (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/k/kid/kid-0.9.4.tar.gz#md5=2122ee32062079418db34cfd5fc15c37 (from http://pypi.python.org/simple/kid/), version: 0.9.4
+    Skipping link http://pypi.python.org/packages/2.4/k/kid/kid-0.9.5-py2.4.egg#md5=1cc7a1fb640be4be872e8c779070b17f (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.3/k/kid/kid-0.9.5-py2.3.egg#md5=eb2d653687613a8f939b9e4ac3192684 (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.3/k/kid/kid-0.9.3-py2.3.egg#md5=aa6734a1d68d72234bf8271f97b0d7c0 (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/k/kid/kid-0.9.6.tar.gz#md5=4233e592eee906039ad3dcbedbf6e972 (from http://pypi.python.org/simple/kid/), version: 0.9.6
+    Skipping link http://pypi.python.org/packages/2.3/k/kid/kid-0.9.4-py2.3.egg#md5=99b825243efdb594ea38f751a8d21e9d (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.4/k/kid/kid-0.9.1-py2.4.egg#md5=35f2a60796784c72796ccf4a6aef99bc (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.4/k/kid/kid-0.9.2-py2.4.egg#md5=8297fa919c19a6c94280a64499c1f9dd (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.4/k/kid/kid-0.9-py2.4.egg#md5=169909e712581ae930848edeb8cc0bc9 (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.4/k/kid/kid-0.9.3-py2.4.egg#md5=19733256462e74b48edd0fac05fd55a1 (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/k/kid/kid-0.9.2.tar.gz#md5=d7b1ac7fcd341f29879b2d46c72a9d17 (from http://pypi.python.org/simple/kid/), version: 0.9.2
+    Skipping link http://pypi.python.org/packages/2.4/k/kid/kid-0.9.6-py2.4.egg#md5=95b1d496f0d36244f00adb5c011da177 (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.3/k/kid/kid-0.9.6-py2.3.egg#md5=86f803dcbad9a89000082855a2ff68a3 (from http://pypi.python.org/simple/kid/); unknown archive format: .egg
+    Skipping link http://www.kid-templating.org/ (from http://pypi.python.org/simple/kid/); not a file
+    Found link http://www.kid-templating.org/dist/0.9.3/kid-0.9.3.tar.gz (from http://pypi.python.org/simple/kid/), version: 0.9.3
+    Skipping link http://kid.lesscode.org/ (from http://pypi.python.org/simple/kid/); not a file
+    Found link http://kid.lesscode.org/dist/0.9.1/kid-0.9.1.tar.gz (from http://pypi.python.org/simple/kid/), version: 0.9.1
+    Found link http://kid.lesscode.org/dist/0.9/kid-0.9.tar.gz (from http://pypi.python.org/simple/kid/), version: 0.9
+    Found link http://kid.lesscode.org/dist/0.8/kid-0.8.tar.gz (from http://pypi.python.org/simple/kid/), version: 0.8
+    Found link http://kid.lesscode.org/dist/0.7.1/kid-0.7.1.tar.gz (from http://pypi.python.org/simple/kid/), version: 0.7.1
+    Skipping link http://lesscode.org/projects/kid/ (from http://pypi.python.org/simple/kid/); not a file
+    Found link http://lesscode.org/dist/kid/kid-0.6.1.tar.gz (from http://pypi.python.org/simple/kid/), version: 0.6.1
+    Found link http://lesscode.org/dist/kid/kid-0.5.1.tar.gz (from http://pypi.python.org/simple/kid/), version: 0.5.1
+    Skipping link http://kid-template.sourceforge.net/ (from http://pypi.python.org/simple/kid/); not a file
+    Found link http://prdownloads.sourceforge.net/kid-template/kid-0.4.2.tar.gz (from http://pypi.python.org/simple/kid/), version: 0.4.2
+    Skipping link http://splice.sf.net/kid/ (from http://pypi.python.org/simple/kid/); not a file
+    Skipping link http://prdownloads.sourceforge.net/splice/ (from http://pypi.python.org/simple/kid/); not a file
+    Found link http://lesscode.org/dist/kid/kid-0.6.3.tar.gz (from http://pypi.python.org/simple/kid/), version: 0.6.3
+  Analyzing links from page http://www.kid-templating.org/
+    Skipping link http://www.kid-templating.org/layout.css (from http://www.kid-templating.org/); unknown archive format: .css
+    Skipping link http://planet.kid-templating.org/rss20.xml (from http://www.kid-templating.org/); unknown archive format: .xml
+    Skipping link http://www.kid-templating.org/index.html (from http://www.kid-templating.org/); unknown archive format: .html
+    Skipping link http://www.kid-templating.org/module-index.html (from http://www.kid-templating.org/); unknown archive format: .html
+    Skipping link http://www.kid-templating.org/trac/ (from http://www.kid-templating.org/); not a file
+    Skipping link http://planet.kid-templating.org/ (from http://www.kid-templating.org/); not a file
+    Skipping link http://lists.sourceforge.net/lists/listinfo/kid-template-discuss (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/about (from http://www.kid-templating.org/); not a file
+    Skipping link http://python.org/ (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.w3.org/TR/xslt (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.zope.org/Wikis/DevSite/Projects/ZPT/TAL (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.php.net/ (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/trac/wiki/WhatsBorrowed (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/trac/wiki/WhatsDifferent (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/trac/wiki/AboutKid (from http://www.kid-templating.org/); not a file
+    Found link http://www.kid-templating.org/dist/0.9.6/kid-0.9.6.tar.gz (from http://www.kid-templating.org/), version: 0.9.6
+    Skipping link http://www.kid-templating.org/dist/ (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/trac/wiki/GettingStarted (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/notes.html (from http://www.kid-templating.org/); unknown archive format: .html
+    Skipping link http://www.kid-templating.org/guide.html (from http://www.kid-templating.org/); unknown archive format: .html
+    Skipping link http://www.kid-templating.org/language.html (from http://www.kid-templating.org/); unknown archive format: .html
+    Skipping link http://www.kid-templating.org/trac/wiki/ (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/trac/wiki/KidFaq (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/trac/wiki/KidRecipes (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/trac/wiki/KidExamples (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/trac/wiki/ProjectsUsingKid (from http://www.kid-templating.org/); not a file
+    Skipping link http://news.gmane.org/gmane.comp.python.kid.general (from http://www.kid-templating.org/); unknown archive format: .general
+    Skipping link http://naeblis.cx/rtomayko/ (from http://www.kid-templating.org/); not a file
+    Skipping link http://www.kid-templating.org/trac/newticket (from http://www.kid-templating.org/); not a file
+    Skipping link mailto:kid-template-discuss@lists.sourceforge.net (from http://www.kid-templating.org/); unknown archive format: .net
+    Skipping link http://www.kid-templating.org/doc-license.html (from http://www.kid-templating.org/); unknown archive format: .html
+    Skipping link http://lesscode.org/projects/pudge/ (from http://www.kid-templating.org/); not a file
+    Skipping link http://blog.ratterobert.com/ (from http://www.kid-templating.org/); not a file
+  Ignoring link http://pypi.python.org/packages/source/k/kid/kid-0.9.3.tar.gz#md5=8e2ebb99a7ad83671ffe799f2168c030 (from http://pypi.python.org/simple/kid/), version 0.9.3 doesn't match >=0.9.6
+  Ignoring link http://pypi.python.org/packages/source/k/kid/kid-0.9.5.tar.gz#md5=bdc37be234c1a03c4355ecc566cd86ad (from http://pypi.python.org/simple/kid/), version 0.9.5 doesn't match >=0.9.6
+  Ignoring link http://pypi.python.org/packages/source/k/kid/kid-0.9.4.tar.gz#md5=2122ee32062079418db34cfd5fc15c37 (from http://pypi.python.org/simple/kid/), version 0.9.4 doesn't match >=0.9.6
+  Ignoring link http://pypi.python.org/packages/source/k/kid/kid-0.9.2.tar.gz#md5=d7b1ac7fcd341f29879b2d46c72a9d17 (from http://pypi.python.org/simple/kid/), version 0.9.2 doesn't match >=0.9.6
+  Ignoring link http://www.kid-templating.org/dist/0.9.3/kid-0.9.3.tar.gz (from http://pypi.python.org/simple/kid/), version 0.9.3 doesn't match >=0.9.6
+  Ignoring link http://kid.lesscode.org/dist/0.9.1/kid-0.9.1.tar.gz (from http://pypi.python.org/simple/kid/), version 0.9.1 doesn't match >=0.9.6
+  Ignoring link http://kid.lesscode.org/dist/0.9/kid-0.9.tar.gz (from http://pypi.python.org/simple/kid/), version 0.9 doesn't match >=0.9.6
+  Ignoring link http://kid.lesscode.org/dist/0.8/kid-0.8.tar.gz (from http://pypi.python.org/simple/kid/), version 0.8 doesn't match >=0.9.6
+  Ignoring link http://kid.lesscode.org/dist/0.7.1/kid-0.7.1.tar.gz (from http://pypi.python.org/simple/kid/), version 0.7.1 doesn't match >=0.9.6
+  Ignoring link http://lesscode.org/dist/kid/kid-0.6.1.tar.gz (from http://pypi.python.org/simple/kid/), version 0.6.1 doesn't match >=0.9.6
+  Ignoring link http://lesscode.org/dist/kid/kid-0.5.1.tar.gz (from http://pypi.python.org/simple/kid/), version 0.5.1 doesn't match >=0.9.6
+  Ignoring link http://prdownloads.sourceforge.net/kid-template/kid-0.4.2.tar.gz (from http://pypi.python.org/simple/kid/), version 0.4.2 doesn't match >=0.9.6
+  Ignoring link http://lesscode.org/dist/kid/kid-0.6.3.tar.gz (from http://pypi.python.org/simple/kid/), version 0.6.3 doesn't match >=0.9.6
+  Using version 0.9.6 (newest of versions: 0.9.6, 0.9.6)
+  Downloading from URL http://pypi.python.org/packages/source/k/kid/kid-0.9.6.tar.gz#md5=4233e592eee906039ad3dcbedbf6e972 (from http://pypi.python.org/simple/kid/)
+Exception:
+Traceback (most recent call last):
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 830, in install_files
+    self.unpack_url(url, location, self.is_download)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 990, in unpack_url
+    chunk = resp.read(4096)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/socket.py", line 351, in read
+    data = self._sock.recv(left)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/httplib.py", line 537, in read
+    s = self.fp.read(amt)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/socket.py", line 351, in read
+    data = self._sock.recv(left)
+timeout: timed out

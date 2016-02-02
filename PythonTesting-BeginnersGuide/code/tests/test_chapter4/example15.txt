@@ -1,0 +1,13 @@
+>>> from mocker import Mocker, IN
+>>> mocker = Mocker()
+>>> func = mocker.mock()
+>>> func(7, IN([45, 68, 19])) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> mocker.count(1, None)
+
+>>> mocker.replay()
+>>> [func(7, 19) for x in range(50)] == [5] * 50
+True
+>>> mocker.restore()
+>>> mocker.verify()

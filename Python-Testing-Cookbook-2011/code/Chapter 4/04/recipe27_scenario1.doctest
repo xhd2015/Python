@@ -1,0 +1,24 @@
+This is a way to exercise the shopping cart 
+from a pure text file containing tests.
+
+First, we need to import the modules
+>>> from cart import *
+
+Now, we can create an instance of a cart
+>>> cart = ShoppingCart()
+
+Here we use the API to add an object. Because
+it returns back the cart, we have to deal with
+the output
+
+>>> cart.add("tuna sandwich", 15.00) #doctest:+ELLIPSIS
+<cart.ShoppingCart object at ...>
+
+Now we can check some other outputs
+
+>>> cart.item(1)
+'tuna sandwich'
+>>> cart.price(1)
+15.0
+>>> cart.total(0.0)
+15.0

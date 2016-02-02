@@ -1,0 +1,94 @@
+import getopt
+import logging
+import os
+import os.path
+import re
+import sys
+from glob import glob
+
+def usage():
+    print
+    print "Usage: python recipe44.py [command]"
+    print
+    print "\t--help"
+    print "\t--test"
+    print "\t--package"
+    print "\t--publish"
+    print "\t--register"
+    print
+
+try:
+    optlist, args = getopt.getopt(sys.argv[1:],
+            "h",
+           ["help", "test", "package", "publish", "register"])
+except getopt.GetoptError:
+    # print help information and exit:
+    print "Invalid command found in %s" % sys.argv
+    usage()
+    sys.exit(2)
+
+def test_with_pyccuracy():
+    from SeleniumLibrary import start_selenium_server
+    from SeleniumLibrary import shut_down_selenium_server
+    from time import sleep
+
+    f = open("recipe44_selenium_log.txt", "w")
+    start_selenium_server(logfile=f)
+    sleep(10)
+
+    import subprocess
+    subprocess.call(["pyccuracy_console"])
+
+    shut_down_selenium_server()
+    sleep(5)
+    f.close()
+
+def test_with_robot():
+    from robot import run
+    run(".")
+
+def test():
+    test_with_pyccuracy()
+    test_with_robot()
+
+def package():
+    print "This is where we can plug in code to run " + \
+          "setup.py to generate a bundle."
+
+def publish():
+    print "This is where we can plug in code to upload " + \
+          "our tarball to S3 or some other download site."
+
+def register():
+    print "setup.py has a built in function to " + \
+          "'register' a release to PyPI. It's " + \
+          "convenient to put a hook in here."
+    # os.system("%s setup.py register" % sys.executable)
+
+if len(optlist) == 0:
+    usage()
+    sys.exit(1)
+
+# Check for help requests, which cause all other 
+# options to be ignored. 
+for option in optlist:
+    if option[0] in ("--help", "-h"):
+        usage()
+        sys.exit(1)
+
+
+# Parse the arguments, in order
+for option in optlist:
+    if option[0] in ("--test"):
+        test()
+
+    if option[0] in ("--package"):
+        package()
+	
+    if option[0] in ("--publish"):
+        publish()
+
+    if option[0] in ("--register"):
+        register()
+
+

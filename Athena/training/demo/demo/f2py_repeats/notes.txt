@@ -1,0 +1,117 @@
+This example is taken from the scipy/Lib/stats directory.
+
+The futil.f file is a "raw" python file used to generate a 'starting point'
+f2py wrapper file.  While it will work, it isn't very pythonic.  
+The futil_improved.pyf file has a more sophisticated and pythonic interface
+that hides some of the unwanted variables, and makes others 'output' instead
+of input variables.
+
+The futil2.f file has the f2py directives embedded in its comments and creates
+the same wrapper that futil_improved.pyf would generate.
+
+###############################################################################
+# To build the futil.pyf file from futil.f using f2py...
+C:\demo\f2py_repeats>f2py -h futil.pyf -m futil  --overwrite-signature futil.f
+Reading fortran codes...
+        Reading file 'futil.f' (format:fix,strict)
+Post-processing...
+        Block: futil
+                        Block: dqsort
+                        Block: dfreps
+Post-processing (stage 2)...
+Saving signatures to file ".\futil.pyf"
+
+###############################################################################
+# Using the setup.py file to build the modules 'inplace' so that we can
+# test them in this directory.
+C:\demo\f2py_repeats>python setup.py build_src build_ext --inplace --compiler=mingw32
+running build_src
+building extension "futil" sources
+f2py options: []
+f2py: futil.pyf
+Reading fortran codes...
+        Reading file 'futil.pyf' (format:free)
+Post-processing...
+        Block: futil
+                        Block: dqsort
+                        Block: dfreps
+Post-processing (stage 2)...
+Building modules...
+        Building module "futil"...
+                Constructing wrapper function "dqsort"...
+                  dqsort(arr,[n])
+                Constructing wrapper function "dfreps"...
+                  dfreps(arr,replist,repnum,nlist,[n])
+        Wrote C/API module "futil" to file "./futilmodule.c"
+  adding 'build\src.win32-2.4\fortranobject.c' to sources.
+  adding 'build\src.win32-2.4' to include_dirs.
+creating build
+creating build\src.win32-2.4
+copying C:\Python24\lib\site-packages\numpy-1.0.2.dev3552-py2.4-win32.egg\numpy\
+f2py\src\fortranobject.c -> build\src.win32-2.4
+copying C:\Python24\lib\site-packages\numpy-1.0.2.dev3552-py2.4-win32.egg\numpy\
+f2py\src\fortranobject.h -> build\src.win32-2.4
+running build_ext
+customize Mingw32CCompiler
+customize Mingw32CCompiler using build_ext
+0
+Could not locate executable gfortran
+Could not locate executable f95
+customize GnuFCompiler
+invalid command 'build_src'
+Could not locate executable ifc
+Could not locate executable efort
+Could not locate executable efc
+Could not locate executable efort
+Could not locate executable efc
+customize IntelVisualFCompiler
+invalid command 'build_src'
+customize AbsoftFCompiler
+invalid command 'build_src'
+customize CompaqVisualFCompiler
+invalid command 'build_src'
+customize IntelItaniumVisualFCompiler
+invalid command 'build_src'
+customize Gnu95FCompiler
+invalid command 'build_src'
+customize G95FCompiler
+invalid command 'build_src'
+customize GnuFCompiler
+invalid command 'build_src'
+customize Gnu95FCompiler
+invalid command 'build_src'
+customize GnuFCompiler
+customize GnuFCompiler using build_ext
+building 'futil' extension
+compiling C sources
+C compiler: gcc -mno-cygwin -O2 -Wall -Wstrict-prototypes
+
+creating build\temp.win32-2.4
+creating build\temp.win32-2.4\Release
+creating build\temp.win32-2.4\Release\build
+creating build\temp.win32-2.4\Release\build\src.win32-2.4
+compile options: '-Ibuild\src.win32-2.4 -IC:\Python24\lib\site-packages\numpy-1.
+0.2.dev3552-py2.4-win32.egg\numpy\core\include -IC:\Python24\include -IC:\Python
+24\PC -c'
+gcc -mno-cygwin -O2 -Wall -Wstrict-prototypes -Ibuild\src.win32-2.4 -IC:\Python2
+4\lib\site-packages\numpy-1.0.2.dev3552-py2.4-win32.egg\numpy\core\include -IC:\
+Python24\include -IC:\Python24\PC -c build\src.win32-2.4\fortranobject.c -o buil
+d\temp.win32-2.4\Release\build\src.win32-2.4\fortranobject.o
+gcc -mno-cygwin -O2 -Wall -Wstrict-prototypes -Ibuild\src.win32-2.4 -IC:\Python2
+4\lib\site-packages\numpy-1.0.2.dev3552-py2.4-win32.egg\numpy\core\include -IC:\
+Python24\include -IC:\Python24\PC -c futilmodule.c -o build\temp.win32-2.4\Relea
+se\futilmodule.o
+compiling Fortran sources
+Fortran f77 compiler: C:\Python24\Lib\site-packages\mingw-3.4.5-win32.egg\bin\g7
+7.exe -g -Wall -fno-second-underscore -mno-cygwin -O3 -funroll-loops -march=i686
+ -mmmx -fomit-frame-pointer -malign-double
+compile options: '-Ibuild\src.win32-2.4 -IC:\Python24\lib\site-packages\numpy-1.
+0.2.dev3552-py2.4-win32.egg\numpy\core\include -IC:\Python24\include -IC:\Python
+24\PC -c'
+g77.exe:f77: futil.f
+C:\Python24\Lib\site-packages\mingw-3.4.5-win32.egg\bin\g77.exe -g -Wall -mno-cy
+gwin -shared build\temp.win32-2.4\Release\futilmodule.o build\temp.win32-2.4\Rel
+ease\build\src.win32-2.4\fortranobject.o build\temp.win32-2.4\Release\futil.o -L
+C:\Python24\Lib\site-packages\mingw-3.4.5-win32.egg\lib -LC:\Python24\Lib\site-p
+ackages\mingw-3.4.5-win32.egg\lib\gcc\mingw32\3.4.5 -LC:\Python24\libs -LC:\Pyth
+on24\PCBuild -lpython24 -lg2c -lgcc -lmsvcr71 -o futil.pyd

@@ -1,0 +1,11 @@
+>>> from mocker import Mocker, ANY
+>>> mocker = Mocker()
+>>> func = mocker.mock()
+>>> func(7, ANY) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> mocker.replay()
+>>> func(7, 'this could be anything')
+5
+>>> mocker.restore()
+>>> mocker.verify()

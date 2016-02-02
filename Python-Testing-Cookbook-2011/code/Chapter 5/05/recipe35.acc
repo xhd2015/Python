@@ -1,0 +1,12 @@
+As a Yahoo User
+I want to search Yahoo
+So that I can test my installation of Pyccuracy
+
+Scenario 1 - Searching for Python Testing Cookbook
+Given
+    I go to "http://yahoo.com"
+When
+    I fill "p" textbox with "Python Testing Cookbook"
+    And I click "search-submit" button and wait
+Then
+    I see "Python Testing Cookbook - Yahoo! Search Results" title

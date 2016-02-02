@@ -1,0 +1,23 @@
+This is a way to exercise the shopping cart 
+from a pure text file containing tests.
+
+First, we need to import the modules
+>>> from cart import *
+
+Now, we can create an instance of a cart
+>>> cart = ShoppingCart()
+
+Now we try to access an item out of range,
+expecting an exception.
+>>> cart.item(5)
+Traceback (most recent call last):
+...
+IndexError: list index out of range
+
+We also expect the price method to fail 
+in a similar way.
+>>> cart.price(-2)
+Traceback (most recent call last):
+...
+IndexError: list index out of range
+

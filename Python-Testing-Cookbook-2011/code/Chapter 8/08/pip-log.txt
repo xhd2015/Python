@@ -1,0 +1,76 @@
+Downloading/unpacking mysql
+  Getting page http://pypi.python.org/simple/mysql
+  Could not fetch URL http://pypi.python.org/simple/mysql: HTTP Error 404: Not Found (mysql does not have any releases)
+  Will skip URL http://pypi.python.org/simple/mysql when looking for download links for mysql
+  Getting page http://pypi.python.org/simple/
+  URLs to search for versions for mysql:
+  * http://pypi.python.org/simple/mysql/
+  Getting page http://pypi.python.org/simple/mysql/
+  Could not fetch URL http://pypi.python.org/simple/mysql/: HTTP Error 404: Not Found (mysql does not have any releases)
+  Will skip URL http://pypi.python.org/simple/mysql/ when looking for download links for mysql
+  Could not find any downloads that satisfy the requirement mysql
+No distributions at all found for mysql
+Exception information:
+Traceback (most recent call last):
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 823, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/index.py", line 117, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for mysql
+------------------------------------------------------------
+/Users/gturnquist/ptc/bin/pip run on Mon Jan 17 22:13:16 2011
+Downloading/unpacking MySQLdb
+  Getting page http://pypi.python.org/simple/MySQLdb
+  Could not fetch URL http://pypi.python.org/simple/MySQLdb: HTTP Error 404: Not Found (MySQLdb does not have any releases)
+  Will skip URL http://pypi.python.org/simple/MySQLdb when looking for download links for MySQLdb
+  Getting page http://pypi.python.org/simple/
+  URLs to search for versions for MySQLdb:
+  * http://pypi.python.org/simple/MySQLdb/
+  Getting page http://pypi.python.org/simple/MySQLdb/
+  Could not fetch URL http://pypi.python.org/simple/MySQLdb/: HTTP Error 404: Not Found (MySQLdb does not have any releases)
+  Will skip URL http://pypi.python.org/simple/MySQLdb/ when looking for download links for MySQLdb
+  Could not find any downloads that satisfy the requirement MySQLdb
+No distributions at all found for MySQLdb
+Exception information:
+Traceback (most recent call last):
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 823, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/index.py", line 117, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for MySQLdb
+------------------------------------------------------------
+/Users/gturnquist/ptc/bin/pip run on Thu Jan 20 20:37:04 2011
+Cannot uninstall requirement pyro, not installed
+Exception information:
+Traceback (most recent call last):
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/uninstall.py", line 37, in run
+    requirement_set.uninstall(auto_confirm=options.yes)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 763, in uninstall
+    req.uninstall(auto_confirm=auto_confirm)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 378, in uninstall
+    raise UninstallationError("Cannot uninstall requirement %s, not installed" % (self.name,))
+UninstallationError: Cannot uninstall requirement pyro, not installed
+------------------------------------------------------------
+/Users/gturnquist/ptc/bin/pip run on Thu Jan 20 20:37:19 2011
+Cannot uninstall requirement Pyro, not installed
+Exception information:
+Traceback (most recent call last):
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/uninstall.py", line 37, in run
+    requirement_set.uninstall(auto_confirm=options.yes)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 763, in uninstall
+    req.uninstall(auto_confirm=auto_confirm)
+  File "/Users/gturnquist/ptc/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 378, in uninstall
+    raise UninstallationError("Cannot uninstall requirement %s, not installed" % (self.name,))
+UninstallationError: Cannot uninstall requirement Pyro, not installed

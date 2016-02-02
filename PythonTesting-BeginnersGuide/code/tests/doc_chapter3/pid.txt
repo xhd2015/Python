@@ -1,0 +1,151 @@
+We want a class that implements a PID controller for a single
+variable. The measurement, setpoint, and output should all be real
+numbers. The constructor should accept an initial measurement value in
+addition to the gains and setpoint.
+
+>>> import time
+>>> time.connection
+5
+
+>>> from mocker import Mocker
+>>> mocker = Mocker()
+>>> mock_time = mocker.replace('time.time')
+>>> t = mock_time()
+>>> mocker.result(1.0)
+>>> mocker.replay()
+>>> import pid
+>>> controller = pid.PID(P = 0.5, I = 0.5, D = 0.5, setpoint = 0,
+...                      initial = 12)
+>>> controller.gains
+(0.5, 0.5, 0.5)
+>>> controller.setpoint
+[0.0]
+>>> controller.previous_time
+1.0
+>>> controller.previous_error
+-12.0
+>>> controller.integrated_error
+0.0
+>>> mocker.restore()
+>>> mocker.verify()
+
+The constructor should also optionally accept a parameter specifying
+when the initial measurement was taken.
+
+>>> pid = reload(pid)
+>>> controller = pid.PID(P = 0.5, I = 0.5, D = 0.5, setpoint = 1,
+...                      initial = 12, when = 43)
+>>> controller.gains
+(0.5, 0.5, 0.5)
+>>> controller.setpoint
+[1.0]
+>>> controller.previous_time
+43.0
+>>> controller.previous_error
+-11.0
+>>> controller.integrated_error
+0.0
+
+>>> from mocker import Mocker
+>>> mocker = Mocker()
+>>> mock_time = mocker.replace('time.time')
+>>> t = mock_time()
+>>> mocker.result(1.0)
+>>> t = mock_time()
+>>> mocker.result(2.0)
+>>> t = mock_time()
+>>> mocker.result(3.0)
+>>> t = mock_time()
+>>> mocker.result(4.0)
+>>> t = mock_time()
+>>> mocker.result(5.0)
+>>> mocker.replay()
+>>> pid = reload(pid)
+>>> controller = pid.PID(P = 0.5, I = 0.5, D = 0.5, setpoint = 0,
+...                      initial = 12)
+>>> controller.calculate_response(6)
+-3.0
+>>> controller.calculate_response(3)
+-4.5
+>>> controller.calculate_response(-1.5)
+-0.75
+>>> controller.calculate_response(-2.25)
+-1.125
+>>> mocker.restore()
+>>> mocker.verify()
+
+The calculate_response method should be willing to accept a parameter
+specifying at what time the call is happening.
+
+>>> pid = reload(pid)
+>>> controller = pid.PID(P = 0.5, I = 0.5, D = 0.5, setpoint = 0,
+...                      initial = 12, when = 1)
+>>> controller.calculate_response(6, 2)
+-3.0
+>>> controller.calculate_response(3, 3)
+-4.5
+>>> controller.calculate_response(-1.5, 4)
+-0.75
+>>> controller.calculate_response(-2.25, 5)
+-1.125
+
+We need to be able to adjust the setpoint at runtime, but we want it
+to have a memory, so that we can easily return to the previous
+setpoint.
+
+>>> pid = reload(pid)
+>>> controller = pid.PID(P = 0.5, I = 0.5, D = 0.5, setpoint = 0,
+...                      initial = 12)
+>>> controller.push_setpoint(7)
+>>> controller.setpoint
+[0.0, 7.0]
+>>> controller.push_setpoint(8.5)
+>>> controller.setpoint
+[0.0, 7.0, 8.5]
+>>> controller.pop_setpoint()
+8.5
+>>> controller.setpoint
+[0.0, 7.0]
+>>> controller.pop_setpoint()
+7.0
+>>> controller.setpoint
+[0.0]
+>>> controller.pop_setpoint()
+Traceback (most recent call last):
+ValueError: PID controller must have a setpoint
+
+It's important that the P, I and D gains not be negative.
+
+>>> pid = reload(pid)
+>>> controller = pid.PID(P = -0.5, I = 0.5, D = 0.5, setpoint = 0,
+...                      initial = 12)
+Traceback (most recent call last):
+ValueError: PID controller gains must be non-negative
+
+>>> pid = reload(pid)
+>>> controller = pid.PID(P = 0.5, I = -0.5, D = 0.5, setpoint = 0,
+...                      initial = 12)
+Traceback (most recent call last):
+ValueError: PID controller gains must be non-negative
+
+>>> pid = reload(pid)
+>>> controller = pid.PID(P = 0.5, I = 0.5, D = -0.5, setpoint = 0,
+...                      initial = 12)
+Traceback (most recent call last):
+ValueError: PID controller gains must be non-negative
+
+We want to be able to use complex numbers as the measurement and
+setpoint for the PID controller.
+
+>>> pid = reload(pid)
+>>> controller = pid.PID(P = 0.5, I = 0.5, D = 0.5,
+...      setpoint = 1 + 1j,
+...      initial = 9.4852813742385695+9.4852813742385695j, when = 1)
+>>> controller.calculate_response(5.2426406871192848+5.2426406871192848j, 2)
+(-2.1213203435596424-2.1213203435596424j)
+>>> controller.calculate_response(3.1213203435596424+3.1213203435596424j, 3)
+(-3.1819805153394638-3.1819805153394638j)
+>>> controller.calculate_response(-0.060660171779821193-0.060660171779821193j, 4)
+(-0.53033008588991093-0.53033008588991093j)
+>>> controller.calculate_response(-0.5909902576697319-0.5909902576697319j, 5)
+(-0.79549512883486606-0.79549512883486606j)

@@ -1,0 +1,26 @@
+Use build.bat to build both the pi and laplace examples.
+
+    c:\...\demo\pyrex> build.bat
+    
+To test the pi example, run:    
+
+    c:\...\demo\pyrex> test_pi.py 1000000
+    PYREX TOOK: 0.547000 for 1000000
+    PURE PYTHON TOOK: 0.469000 for 1000000
+
+To test the pi example, run:    
+
+    c:\...\demo\pyrex> test_sum.py 1000000
+    PYREX TOOK: 0.547000 for 1000000
+    PURE PYTHON TOOK: 0.469000 for 1000000
+
+To test the laplace example:
+
+    c:\...\demo\pyrex> test_laplace.py    
+    Doing 100 iterations on a 500x500 grid...
+    
+            Numeric took 0.406934680246 seconds
+            pyrex took 0.275142231764 seconds
+    
+    pure Python (1 iteration) took 2.31892908177 seconds
+    100 iterations should take about 231.892908 seconds

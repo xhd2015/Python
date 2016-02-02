@@ -1,0 +1,7 @@
+code 200
+follow Science
+code 200
+formvalue 2 fhfilter "aardvark"
+submit
+code 200
+find aardvark

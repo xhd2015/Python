@@ -1,0 +1,102 @@
+This project is a personal scheduling system intended to keep track of
+a single person's schedule and activities. The system will store and
+display two kinds of schedule information: activities and statuses.
+Activities and statuses both support a protocol which allows them to
+be checked for overlap with another object supporting the protocol.
+
+>>> from planner.data import activities, statuses
+>>> from datetime import datetime
+
+Activities and statuses are stored in schedules, to which they can be
+added and removed.
+
+>>> from planner.data import schedules
+>>> activity = activities('test activity',
+...                       datetime(year = 2009, month = 6, day = 1,
+...                                hour = 10, minute = 15),
+...                       datetime(year = 2009, month = 6, day = 1,
+...                                hour = 12, minute = 30))
+>>> duplicate_activity = activities('test activity',
+...                       datetime(year = 2009, month = 6, day = 1,
+...                                hour = 10, minute = 15),
+...                       datetime(year = 2009, month = 6, day = 1,
+...                                hour = 12, minute = 30))
+>>> status = statuses('test status',
+...                   datetime(year = 2009, month = 7, day = 1,
+...                            hour = 10, minute = 15),
+...                   datetime(year = 2009, month = 7, day = 1,
+...                            hour = 12, minute = 30))
+>>> schedule = schedules()
+>>> schedule.add(activity)
+>>> schedule.add(status)
+>>> status in schedule
+True
+>>> activity in schedule
+True
+>>> duplicate_activity in schedule
+True
+>>> schedule.remove(activity)
+>>> schedule.remove(status)
+>>> status in schedule
+False
+>>> activity in schedule
+False
+
+Activities represent tasks that the person must actively engage in,
+and they are therefore mutually exclusive: no person can have two
+activities that overlap the same period of time.
+
+>>> activity1 = activities('test activity 1',
+...                        datetime(year = 2009, month = 6, day = 1,
+...                                 hour = 9, minute = 5),
+...                        datetime(year = 2009, month = 6, day = 1,
+...                                 hour = 12, minute = 30))
+>>> activity2 = activities('test activity 2',
+...                        datetime(year = 2009, month = 6, day = 1,
+...                                 hour = 10, minute = 15),
+...                        datetime(year = 2009, month = 6, day = 1,
+...                                 hour = 13, minute = 30))
+>>> schedule = schedules()
+>>> schedule.add(activity1)
+>>> schedule.add(activity2) # doctest:+ELLIPSIS
+Traceback (most recent call last):
+schedule_error: "test activity 2" overlaps with "test activity 1"
+
+Statuses represent tasks that a person engages in passively, and so
+can overlap with each other and with activities.
+
+>>> activity1 = activities('test activity 1',
+...                        datetime(year = 2009, month = 6, day = 1,
+...                                 hour = 9, minute = 5),
+...                        datetime(year = 2009, month = 6, day = 1,
+...                                 hour = 12, minute = 30))
+>>> status1 = statuses('test status 1',
+...                    datetime(year = 2009, month = 6, day = 1,
+...                             hour = 10, minute = 15),
+...                    datetime(year = 2009, month = 6, day = 1,
+...                             hour = 13, minute = 30))
+>>> status2 = statuses('test status 2',
+...                    datetime(year = 2009, month = 6, day = 1,
+...                             hour = 8, minute = 45),
+...                    datetime(year = 2009, month = 6, day = 1,
+...                             hour = 15, minute = 30))
+>>> schedule = schedules()
+>>> schedule.add(activity1)
+>>> schedule.add(status1)
+>>> schedule.add(status2)
+>>> activity1 in schedule
+True
+>>> status1 in schedule
+True
+>>> status2 in schedule
+True
+
+Schedules can be saved to a sqlite database, and they can be reloaded
+from that stored state.
+
+>>> from planner.persistence import file
+>>> storage = file(':memory:')
+>>> schedule.store(storage)
+>>> newsched = schedules.load(storage)
+>>> schedule == newsched
+True

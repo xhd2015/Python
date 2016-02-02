@@ -1,0 +1,14 @@
+(lp0
+S'a list'
+p1
+aS'containing'
+p2
+aI5
+aS'values including another list'
+p3
+a(lp4
+S'inner'
+p5
+aS'list'
+p6
+aa.

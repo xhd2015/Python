@@ -1,0 +1,146 @@
+### DataVizManagers ###
+1
+### 1. DataVizManager ###
+### VtkDataReader ###
+VtkDataReader
+heart.vtk
+vtkStructuredPointsReader
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetReadFromInputString', 0), ('SetReleaseDataFlag', 0), ('SetFileName', '/home/prabhu/stuff/mayavi/cvs/mayavi/examples/heart.vtk'), ('SetProgress', 1.0), ('SetScalarsName', 'scalars')]
+### End of VtkDataReader ###
+### ModuleManagers ###
+1
+### 1. ModuleManager ###
+### Scalar Lookup Table ###
+0
+custom16.lut
+vtkLookupTable
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetRamp', 1), ('SetScale', 0), ('SetAlphaRange', (1.0, 1.0)), ('SetHueRange', (0.66670000553131104, 0.0)), ('SetNumberOfColors', 16), ('SetNumberOfTableValues', 16), ('SetSaturationRange', (1.0, 1.0)), ('SetTableRange', (0.0, 255.0)), ('SetValueRange', (1.0, 1.0))]
+vtkScalarBarActor
+[('SetBold', 1), ('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetItalic', 1), ('SetPickable', 1), ('SetShadow', 1), ('SetVisibility', 1), ('SetFontFamily', 0), ('SetOrientation', 0), ('SetHeight', 0.14000000059604645), ('SetLabelFormat', '%-#6.3g'), ('SetLayerNumber', 0), ('SetMaximumNumberOfColors', 64), ('SetNumberOfLabels', 8), ('SetPosition', (0.10000000149011612, 0.0099999997764825821)), ('SetPosition2', (0.80000001192092896, 0.14000000059604645)), ('SetTitle', 'scalars'), ('SetWidth', 0.80000001192092896)]
+vtkProperty2D
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetDisplayLocation', 1), ('SetColor', (0.0, 0.0, 0.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 1.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0)]
+vtkCoordinate
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetCoordinateSystem', 3), ('SetValue', (0.10000000149011612, 0.0099999997764825821, 0.0))]
+vtkCoordinate
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetCoordinateSystem', 3), ('SetValue', (0.80000001192092896, 0.14000000059604645, 0.0))]
+### End of Scalar Lookup Table ###
+### Vector Lookup Table ###
+1
+
+vtkLookupTable
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetRamp', 1), ('SetScale', 0), ('SetAlphaRange', (1.0, 1.0)), ('SetHueRange', (0.66670000553131104, 0.0)), ('SetNumberOfColors', 64), ('SetNumberOfTableValues', 64), ('SetSaturationRange', (1.0, 1.0)), ('SetTableRange', (0.0, 1.0)), ('SetValueRange', (1.0, 1.0))]
+vtkScalarBarActor
+[('SetBold', 1), ('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetItalic', 1), ('SetPickable', 1), ('SetShadow', 1), ('SetVisibility', 0), ('SetFontFamily', 0), ('SetOrientation', 0), ('SetHeight', 0.14000000059604645), ('SetLabelFormat', '%-#6.3g'), ('SetLayerNumber', 0), ('SetMaximumNumberOfColors', 64), ('SetNumberOfLabels', 8), ('SetPosition', (0.10000000149011612, 0.0099999997764825821)), ('SetPosition2', (0.80000001192092896, 0.14000000059604645)), ('SetWidth', 0.80000001192092896)]
+vtkProperty2D
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetDisplayLocation', 1), ('SetColor', (0.0, 0.0, 0.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 1.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0)]
+vtkCoordinate
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetCoordinateSystem', 3), ('SetValue', (0.10000000149011612, 0.0099999997764825821, 0.0))]
+vtkCoordinate
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetCoordinateSystem', 3), ('SetValue', (0.80000001192092896, 0.14000000059604645, 0.0))]
+### End Vector Lookup Table ###
+### Filters ###
+0
+### End of Filters ###
+### Modules ###
+8
+### 1. Outline ###
+Outline
+vtkOpenGLActor
+[('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetPickable', 1), ('SetVisibility', 1), ('SetOrientation', (0.0, -0.0, 0.0)), ('SetOrigin', (0.0, 0.0, 0.0)), ('SetPosition', (0.0, 0.0, 0.0)), ('SetScale', (1.0, 1.0, 1.0))]
+vtkOpenGLProperty
+[('SetBackfaceCulling', 0), ('SetDebug', 0), ('SetEdgeVisibility', 0), ('SetFrontfaceCulling', 0), ('SetGlobalWarningDisplay', 1), ('SetInterpolation', 1), ('SetRepresentation', 2), ('SetAmbient', 0.0), ('SetAmbientColor', (0.0, 0.0, 0.0)), ('SetColor', (0.0, 0.0, 0.0)), ('SetDiffuse', 1.0), ('SetDiffuseColor', (0.0, 0.0, 0.0)), ('SetEdgeColor', (1.0, 1.0, 1.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 1.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0), ('SetSpecular', 0.0), ('SetSpecularColor', (0.0, 0.0, 0.0)), ('SetSpecularPower', 1.0)]
+### End of 1. Outline ###
+### 2. Axes ###
+Axes
+vtkCubeAxesActor2D
+[('SetBold', 1), ('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetItalic', 1), ('SetPickable', 1), ('SetScaling', 1), ('SetShadow', 1), ('SetVisibility', 1), ('SetXAxisVisibility', 1), ('SetYAxisVisibility', 1), ('SetZAxisVisibility', 1), ('SetFlyMode', 0), ('SetFontFamily', 0), ('SetBounds', (0.0, 31.0, 0.0, 31.0, 0.0, 44.0)), ('SetCornerOffset', 0.05000000074505806), ('SetFontFactor', 1.3500000238418579), ('SetHeight', 0.5), ('SetInertia', 1.0), ('SetLabelFormat', '%-#6.3g'), ('SetLayerNumber', 0), ('SetNumberOfLabels', 2), ('SetPosition', (0.0, 0.0)), ('SetPosition2', (0.5, 0.5)), ('SetWidth', 0.5), ('SetXLabel', 'X'), ('SetYLabel', 'Y'), ('SetZLabel', 'Z')]
+vtkProperty2D
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetDisplayLocation', 1), ('SetColor', (0.0, 0.0, 0.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 1.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0)]
+### End of 2. Axes ###
+### 3. GridPlane ###
+GridPlane
+0, 0
+vtkStructuredPointsGeometryFilter
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetReleaseDataFlag', 0), ('SetExtent', (0, 0, 0, 32, 0, 12)), ('SetProgress', 1.0)]
+vtkOpenGLPolyDataMapper
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalImmediateModeRendering', 0), ('SetGlobalWarningDisplay', 1), ('SetImmediateModeRendering', 0), ('SetScalarVisibility', 0), ('SetUseLookupTableScalarRange', 0), ('SetColorMode', 0), ('SetResolveCoincidentTopology', 0), ('SetScalarMode', 0), ('SetGhostLevel', 0), ('SetNumberOfPieces', 1), ('SetNumberOfSubPieces', 1), ('SetPiece', 0), ('SetProgress', 0.0), ('SetRenderTime', 0.0), ('SetResolveCoincidentTopologyZShift', 0.01), ('SetScalarRange', (0.0, 255.0))]
+vtkOpenGLActor
+[('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetPickable', 1), ('SetVisibility', 1), ('SetOrientation', (0.0, -0.0, 0.0)), ('SetOrigin', (0.0, 0.0, 0.0)), ('SetPosition', (0.0, 0.0, 0.0)), ('SetScale', (1.0, 1.0, 1.0))]
+vtkOpenGLProperty
+[('SetBackfaceCulling', 0), ('SetDebug', 0), ('SetEdgeVisibility', 0), ('SetFrontfaceCulling', 0), ('SetGlobalWarningDisplay', 1), ('SetInterpolation', 1), ('SetRepresentation', 1), ('SetAmbient', 0.0), ('SetAmbientColor', (0.0, 0.0, 0.0)), ('SetColor', (0.0, 0.0, 0.0)), ('SetDiffuse', 1.0), ('SetDiffuseColor', (0.0, 0.0, 0.0)), ('SetEdgeColor', (1.0, 1.0, 1.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 1.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0), ('SetSpecular', 0.0), ('SetSpecularColor', (0.0, 0.0, 0.0)), ('SetSpecularPower', 1.0)]
+### End of 3. GridPlane ###
+### 4. GridPlane ###
+GridPlane
+1, 0
+vtkStructuredPointsGeometryFilter
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetReleaseDataFlag', 0), ('SetExtent', (0, 32, 0, 0, 0, 12)), ('SetProgress', 1.0)]
+vtkOpenGLPolyDataMapper
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalImmediateModeRendering', 0), ('SetGlobalWarningDisplay', 1), ('SetImmediateModeRendering', 0), ('SetScalarVisibility', 0), ('SetUseLookupTableScalarRange', 0), ('SetColorMode', 0), ('SetResolveCoincidentTopology', 0), ('SetScalarMode', 0), ('SetGhostLevel', 0), ('SetNumberOfPieces', 1), ('SetNumberOfSubPieces', 1), ('SetPiece', 0), ('SetProgress', 0.0), ('SetRenderTime', 0.0), ('SetResolveCoincidentTopologyZShift', 0.01), ('SetScalarRange', (0.0, 255.0))]
+vtkOpenGLActor
+[('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetPickable', 1), ('SetVisibility', 1), ('SetOrientation', (0.0, -0.0, 0.0)), ('SetOrigin', (0.0, 0.0, 0.0)), ('SetPosition', (0.0, 0.0, 0.0)), ('SetScale', (1.0, 1.0, 1.0))]
+vtkOpenGLProperty
+[('SetBackfaceCulling', 0), ('SetDebug', 0), ('SetEdgeVisibility', 0), ('SetFrontfaceCulling', 0), ('SetGlobalWarningDisplay', 1), ('SetInterpolation', 1), ('SetRepresentation', 1), ('SetAmbient', 0.0), ('SetAmbientColor', (0.0, 0.0, 0.0)), ('SetColor', (0.0, 0.0, 0.0)), ('SetDiffuse', 1.0), ('SetDiffuseColor', (0.0, 0.0, 0.0)), ('SetEdgeColor', (1.0, 1.0, 1.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 1.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0), ('SetSpecular', 0.0), ('SetSpecularColor', (0.0, 0.0, 0.0)), ('SetSpecularPower', 1.0)]
+### End of 4. GridPlane ###
+### 5. GridPlane ###
+GridPlane
+2, 0
+vtkStructuredPointsGeometryFilter
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetReleaseDataFlag', 0), ('SetExtent', (0, 32, 0, 32, 0, 0)), ('SetProgress', 1.0)]
+vtkOpenGLPolyDataMapper
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalImmediateModeRendering', 0), ('SetGlobalWarningDisplay', 1), ('SetImmediateModeRendering', 0), ('SetScalarVisibility', 0), ('SetUseLookupTableScalarRange', 0), ('SetColorMode', 0), ('SetResolveCoincidentTopology', 0), ('SetScalarMode', 0), ('SetGhostLevel', 0), ('SetNumberOfPieces', 1), ('SetNumberOfSubPieces', 1), ('SetPiece', 0), ('SetProgress', 0.0), ('SetRenderTime', 0.0), ('SetResolveCoincidentTopologyZShift', 0.01), ('SetScalarRange', (0.0, 255.0))]
+vtkOpenGLActor
+[('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetPickable', 1), ('SetVisibility', 1), ('SetOrientation', (0.0, -0.0, 0.0)), ('SetOrigin', (0.0, 0.0, 0.0)), ('SetPosition', (0.0, 0.0, 0.0)), ('SetScale', (1.0, 1.0, 1.0))]
+vtkOpenGLProperty
+[('SetBackfaceCulling', 0), ('SetDebug', 0), ('SetEdgeVisibility', 0), ('SetFrontfaceCulling', 0), ('SetGlobalWarningDisplay', 1), ('SetInterpolation', 1), ('SetRepresentation', 1), ('SetAmbient', 0.0), ('SetAmbientColor', (0.0, 0.0, 0.0)), ('SetColor', (0.0, 0.0, 0.0)), ('SetDiffuse', 1.0), ('SetDiffuseColor', (0.0, 0.0, 0.0)), ('SetEdgeColor', (1.0, 1.0, 1.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 1.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0), ('SetSpecular', 0.0), ('SetSpecularColor', (0.0, 0.0, 0.0)), ('SetSpecularPower', 1.0)]
+### End of 5. GridPlane ###
+### 6. ContourGridPlane ###
+ContourGridPlane
+1, 16, 1, 15, 0.000000, 255.000000
+vtkStructuredPointsGeometryFilter
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetReleaseDataFlag', 0), ('SetExtent', (0, 32, 16, 16, 0, 12)), ('SetProgress', 1.0)]
+vtkContourFilter
+[('SetAbortExecute', 0), ('SetComputeGradients', 0), ('SetComputeNormals', 1), ('SetComputeScalars', 1), ('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetReleaseDataFlag', 0), ('SetUseScalarTree', 0), ('SetNumberOfContours', 15), ('SetProgress', 1.0)]
+vtkOpenGLPolyDataMapper
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalImmediateModeRendering', 0), ('SetGlobalWarningDisplay', 1), ('SetImmediateModeRendering', 0), ('SetScalarVisibility', 1), ('SetUseLookupTableScalarRange', 0), ('SetColorMode', 0), ('SetResolveCoincidentTopology', 0), ('SetScalarMode', 0), ('SetGhostLevel', 0), ('SetNumberOfPieces', 1), ('SetNumberOfSubPieces', 1), ('SetPiece', 0), ('SetProgress', 0.0), ('SetRenderTime', 0.0), ('SetResolveCoincidentTopologyZShift', 0.01), ('SetScalarRange', (0.0, 255.0))]
+vtkOpenGLActor
+[('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetPickable', 1), ('SetVisibility', 1), ('SetOrientation', (0.0, -0.0, 0.0)), ('SetOrigin', (0.0, 0.0, 0.0)), ('SetPosition', (0.0, 0.0, 0.0)), ('SetScale', (1.0, 1.0, 1.0))]
+vtkOpenGLProperty
+[('SetBackfaceCulling', 0), ('SetDebug', 0), ('SetEdgeVisibility', 0), ('SetFrontfaceCulling', 0), ('SetGlobalWarningDisplay', 1), ('SetInterpolation', 1), ('SetRepresentation', 2), ('SetAmbient', 0.0), ('SetAmbientColor', (0.0, 0.0, 0.0)), ('SetColor', (0.0, 0.0, 0.0)), ('SetDiffuse', 1.0), ('SetDiffuseColor', (0.0, 0.0, 0.0)), ('SetEdgeColor', (1.0, 1.0, 1.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 4.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0), ('SetSpecular', 0.0), ('SetSpecularColor', (0.0, 0.0, 0.0)), ('SetSpecularPower', 1.0)]
+### End of 6. ContourGridPlane ###
+### 7. GridPlane ###
+GridPlane
+0, 16
+vtkStructuredPointsGeometryFilter
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetReleaseDataFlag', 0), ('SetExtent', (16, 16, 0, 32, 0, 12)), ('SetProgress', 1.0)]
+vtkOpenGLPolyDataMapper
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalImmediateModeRendering', 0), ('SetGlobalWarningDisplay', 1), ('SetImmediateModeRendering', 0), ('SetScalarVisibility', 1), ('SetUseLookupTableScalarRange', 0), ('SetColorMode', 0), ('SetResolveCoincidentTopology', 0), ('SetScalarMode', 0), ('SetGhostLevel', 0), ('SetNumberOfPieces', 1), ('SetNumberOfSubPieces', 1), ('SetPiece', 0), ('SetProgress', 0.0), ('SetRenderTime', 0.0), ('SetResolveCoincidentTopologyZShift', 0.01), ('SetScalarRange', (0.0, 255.0))]
+vtkOpenGLActor
+[('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetPickable', 1), ('SetVisibility', 1), ('SetOrientation', (0.0, -0.0, 0.0)), ('SetOrigin', (0.0, 0.0, 0.0)), ('SetPosition', (0.0, 0.0, 0.0)), ('SetScale', (1.0, 1.0, 1.0))]
+vtkOpenGLProperty
+[('SetBackfaceCulling', 0), ('SetDebug', 0), ('SetEdgeVisibility', 0), ('SetFrontfaceCulling', 0), ('SetGlobalWarningDisplay', 1), ('SetInterpolation', 1), ('SetRepresentation', 2), ('SetAmbient', 0.0), ('SetAmbientColor', (0.0, 0.0, 0.0)), ('SetColor', (0.0, 0.0, 0.0)), ('SetDiffuse', 1.0), ('SetDiffuseColor', (0.0, 0.0, 0.0)), ('SetEdgeColor', (1.0, 1.0, 1.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 1.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0), ('SetSpecular', 0.0), ('SetSpecularColor', (0.0, 0.0, 0.0)), ('SetSpecularPower', 1.0)]
+### End of 7. GridPlane ###
+### 8. IsoSurface ###
+IsoSurface
+206.600000, 1, 45.000000, 0.000000, 255.000000
+vtkContourFilter
+[('SetAbortExecute', 0), ('SetComputeGradients', 0), ('SetComputeNormals', 1), ('SetComputeScalars', 1), ('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetReleaseDataFlag', 0), ('SetUseScalarTree', 0), ('SetNumberOfContours', 1), ('SetProgress', 1.0)]
+vtkPolyDataNormals
+[('SetAbortExecute', 0), ('SetComputeCellNormals', 0), ('SetComputePointNormals', 1), ('SetConsistency', 1), ('SetDebug', 0), ('SetFlipNormals', 0), ('SetGlobalWarningDisplay', 1), ('SetNonManifoldTraversal', 1), ('SetReleaseDataFlag', 0), ('SetSplitting', 1), ('SetFeatureAngle', 45.0), ('SetMaxRecursionDepth', 0), ('SetProgress', 1.0)]
+vtkOpenGLPolyDataMapper
+[('SetAbortExecute', 0), ('SetDebug', 0), ('SetGlobalImmediateModeRendering', 0), ('SetGlobalWarningDisplay', 1), ('SetImmediateModeRendering', 0), ('SetScalarVisibility', 1), ('SetUseLookupTableScalarRange', 0), ('SetColorMode', 0), ('SetResolveCoincidentTopology', 0), ('SetScalarMode', 0), ('SetGhostLevel', 0), ('SetNumberOfPieces', 1), ('SetNumberOfSubPieces', 1), ('SetPiece', 0), ('SetProgress', 0.0), ('SetRenderTime', 0.0), ('SetResolveCoincidentTopologyZShift', 0.01), ('SetScalarRange', (0.0, 255.0))]
+vtkOpenGLActor
+[('SetDebug', 0), ('SetDragable', 1), ('SetGlobalWarningDisplay', 1), ('SetPickable', 1), ('SetVisibility', 1), ('SetOrientation', (0.0, -0.0, 0.0)), ('SetOrigin', (0.0, 0.0, 0.0)), ('SetPosition', (0.0, 0.0, 0.0)), ('SetScale', (1.0, 1.0, 1.0))]
+vtkOpenGLProperty
+[('SetBackfaceCulling', 0), ('SetDebug', 0), ('SetEdgeVisibility', 0), ('SetFrontfaceCulling', 0), ('SetGlobalWarningDisplay', 1), ('SetInterpolation', 1), ('SetRepresentation', 2), ('SetAmbient', 0.0), ('SetAmbientColor', (1.0, 1.0, 1.0)), ('SetColor', (1.0, 1.0, 1.0)), ('SetDiffuse', 1.0), ('SetDiffuseColor', (1.0, 1.0, 1.0)), ('SetEdgeColor', (1.0, 1.0, 1.0)), ('SetLineStipplePattern', 65535), ('SetLineStippleRepeatFactor', 1), ('SetLineWidth', 1.0), ('SetOpacity', 1.0), ('SetPointSize', 1.0), ('SetSpecular', 0.0), ('SetSpecularColor', (1.0, 1.0, 1.0)), ('SetSpecularPower', 1.0)]
+### End of 8. IsoSurface ###
+### End of Modules ###
+### End of 1. ModuleManager ###
+### End of ModuleManagers ###
+### End of 1. DataVizManager ###
+### End of DataVizManagers ###
+### RenderWindow ###
+vtkOpenGLRenderer
+[('SetBackingStore', 0), ('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetInteractive', 1), ('SetLightFollowCamera', 1), ('SetTwoSidedLighting', 1), ('SetAllocatedRenderTime', 10000.0), ('SetAmbient', (1.0, 1.0, 1.0)), ('SetAspect', (1.1131725311279297, 1.0)), ('SetBackground', (0.68235296010971069, 0.68235296010971069, 0.7137255072593689)), ('SetDisplayPoint', (361.71282958984375, 397.48410034179688, 0.4974932074546814)), ('SetLayer', 0), ('SetPixelAspect', (1.0, 1.0)), ('SetViewPoint', (0.22899013757705688, 0.47489458322525024, 0.4974932074546814)), ('SetViewport', (0.0, 0.0, 1.0, 1.0)), ('SetWorldPoint', (30.970306396484375, 30.969757080078125, 43.975078582763672, 1.0))]
+vtkOpenGLCamera
+[('SetDebug', 0), ('SetGlobalWarningDisplay', 1), ('SetParallelProjection', 0), ('SetClippingRange', (58.7148557298, 200.89005035080001)), ('SetDistance', 120.3687999308442), ('SetEyeAngle', 2.0), ('SetFocalDisk', 1.0), ('SetFocalPoint', (11.585073471099999, 8.3146944046000009, 31.336425781199999)), ('SetParallelScale', 31.0), ('SetPosition', (78.828790084000005, 61.796009098699997, 115.637550041)), ('SetRoll', 8.8780620558106325), ('SetThickness', 142.175194621), ('SetViewAngle', 30.0), ('SetViewPlaneNormal', (0.55864739576645861, 0.44431210350877259, 0.70035693890969863)), ('SetViewShear', (0.0, 0.0, 1.0)), ('SetViewUp', (-0.15309373847198976, 0.88513864774494078, -0.43942221326297065)), ('SetWindowCenter', (0.0, 0.0))]
+### End of RenderWindow ###

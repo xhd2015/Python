@@ -1,0 +1,38 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/site_media/css/python_hol.css">
+</head>
+<body>
+<div id="content">
+<a href="/employees/create" class="addlink">Add New Employee</a>
+{% if object_list %}
+  <table id="employee_list_table" frame="hsides" rules="cols" style="border-width: 5px">
+    <tr>
+      <th>Email</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Phone #</th>
+      <th>Hire Date</th>
+      <th>Salary</th>
+      <th>Commission %</th>
+      <th>Action</th>
+    </tr>
+  {% for employee in object_list %}
+    <tr>
+      <td><a href="/employees/update/{{ employee.employee_id }}/">{{ employee.email }}</a></td>
+      <td>{{ employee.first_name }}</td>
+      <td>{{ employee.last_name }}</td>
+      <td>{{ employee.phone_number }}</td>
+      <td>{{ employee.hire_date }}</td>
+      <td>{{ employee.salary }}</td>
+      <td>{{ employee.commission_pct }}</td>
+      <td><a href="/employees/delete/{{ employee.employee_id }}/">Delete</a></td>
+    </tr>
+  {% endfor %}
+  </table>
+{% else %}
+  <p>No employees found.</p>
+{% endif %}
+</div>
+</body>
+</html>

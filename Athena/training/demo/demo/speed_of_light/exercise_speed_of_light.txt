@@ -1,0 +1,25 @@
+This exercise demonstrates loading data from a data file, calculating
+its histogram, and plotting the resulting histogram.
+
+    1. Loads the data from speed_of_light.dat into a 1D array.
+    2. Calculate a histogram from the measurements.  The measurements
+       are in nanoseconds and represent the deviation from 24800 ns.
+       So, a reading of 24 means that the light travel time was
+       24824 ns. The histogram() method is found in the scipy.stats
+       module and has the following signature.
+       
+           stats.histogram(a, numbins=10, defaultlimits=None, printextras=1)
+       
+    3. Create an array that represents the "bin locations" for the
+       results from the histogram.  This will form our "x" axis in
+       our final plot.  stats.histogram() returns four numbers:
+       
+          (array of bin counts, bin-min, min-width, #-points-outside-range)
+       
+       A typical approach to converting this to an x array is as follows:
+       
+          x = min_val + arange(len(bin_counts))*width
+          
+    4. Now plot the histogram using the plt.bar(x, y) method.      
+    
+The "speed_of_light.py" file is available as an example.

@@ -1,0 +1,13 @@
+>>> from mocker import Mocker
+>>> mocker = Mocker()
+>>> obj = mocker.mock()
+>>> obj.thingy # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.throw(AttributeError('thingy does not exist'))
+
+>>> mocker.replay()
+>>> obj.thingy
+Traceback (most recent call last):
+AttributeError: thingy does not exist
+>>> mocker.restore()
+>>> mocker.verify()

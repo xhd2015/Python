@@ -1,0 +1,83 @@
+# Simon Newcomb measured the time required for light to travel from his 
+# laboratory on the Potomac River to a mirror at the base of the Washington 
+# Monument and back, a total distance of about 7400 meters. These measurements 
+# were used to estimate the speed of light. The datafile contains the estimated 
+# speed of light for 66 trials.
+#
+# Here are Newcomb’s 66 repetitions of his experiment. 
+# Newcomb measured the time in seconds that a light signal 
+# took to pass from his laboratory on the Potomac River to a mirror at the base of 
+# the Washington Monument and back, a total distance of about 7400 meters. Just as 
+# you can compute the speed of a car from the time required to drive a mile, 
+# Newcomb could compute the speed of light from the passage time. Newcomb’s first 
+# measurement of the passage time of light was 0.000024828 second, or 24,828 
+# nanoseconds. The entries here record only the deviation from 24,800 nanoseconds. 
+# The table entry 28 is short for the original 0.000024828. 
+#
+# Speed_of_Light
+28
+22
+36
+26
+28
+28
+26
+24
+32
+30
+27
+24
+33
+21
+36
+32
+31
+25
+24
+25
+28
+36
+27
+32
+34
+30
+25
+26
+26
+25
+-44
+23
+21
+30
+33
+29
+27
+29
+28
+22
+26
+27
+16
+31
+29
+36
+32
+28
+40
+19
+37
+23
+32
+29
+-2
+24
+25
+27
+24
+16
+29
+20
+28
+27
+39
+23

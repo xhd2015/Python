@@ -1,0 +1,24 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/site_media/css/python_hol.css">
+</head>
+
+<body>
+  {% if error_message %}
+    <p><strong>{{ error_message }}</strong></p>
+  {% endif %}
+  <div id="formdiv">
+  <form action="" method="post">{% csrf_token %}
+    {% if object %}
+    <h1>Edit Employee {{ object.first_name }} {{ object.last_name }}</h1>
+    {% else %}
+    <h1>Create Employee</h1>
+    {% endif %}
+    <p>Use this form to manage your employees.</p>
+    <form action="" method="post">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+  </form>
+  </div>    
+</body>
+</html>

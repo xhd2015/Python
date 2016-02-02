@@ -1,0 +1,44 @@
+As a store customer
+I want to put things into my cart
+So that I can verify the store's functionality.
+
+***Test Cases***
+Inspect empty cart in detail
+  Click link  Cart
+  Page Should Contain  Your cart is empty
+  Page Should Contain  0 - $0.00
+  Capture Page Screenshot  recipe42-scenario1-1.png
+
+Load up a cart with 2 of the same
+  Click link  Science Fiction  don't wait
+  Capture Page Screenshot  recipe42-scenario2-1.png
+  Click link  Robots Attack!
+  Capture Page Screenshot  recipe42-scenario2-2.png
+  Input text  quantity  2
+  Capture Page Screenshot  recipe42-scenario2-3.png
+  Click button  Add to cart
+  Click link  Cart
+  Capture Page Screenshot  recipe42-scenario2-4.png
+  Textfield Value Should Be  quantity  2
+  Page Should Contain  Robots Attack! (Hard cover)
+  Html Should Contain  <td align="center">$7.99</td>
+  Html Should Contain  <td align="center">$15.98</td>
+  Html Should Contain  <td>$15.98</td>
+
+***Keywords***
+Html Should Contain
+  [Arguments]     ${expected}
+  ${html}=        Get Source
+  Should Contain  ${html}  ${expected}
+
+Startup
+  Start Selenium Server
+  Sleep  3s
+
+***Settings***
+Library         SeleniumLibrary
+Test Setup      Open Browser  http://localhost:8000
+Test Teardown   Close All Browsers
+
+Suite Setup     Startup
+Suite Teardown  Stop Selenium Server

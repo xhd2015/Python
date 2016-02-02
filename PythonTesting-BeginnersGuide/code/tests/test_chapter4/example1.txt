@@ -1,0 +1,15 @@
+>>> from mocker import Mocker
+
+>>> mocker = Mocker()
+>>> func = mocker.mock()
+>>> func(56, "hello") # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(11)
+
+>>> mocker.replay()
+
+>>> func(56, "hello")
+11
+
+>>> mocker.restore()
+>>> mocker.verify()

@@ -1,0 +1,59 @@
+This is a simple doctest that checks some of Python's arithmetic operations.
+
+
+>>> 2 + 2
+4
+
+>>> 3 * 3
+10
+
+Now we're going to take some more of doctest's syntax for a spin.
+
+>>> import sys
+>>> def test_write():
+...     sys.stdout.write("Hello\n")
+...     return True
+>>> test_write()
+Hello
+True
+
+Here we use doctest's exception syntax to check that Python is correctly enforcing its grammar.
+
+>>> def faulty():
+...     yield 5
+...     return 7
+Traceback (most recent call last):
+SyntaxError: 'return' with argument inside generator (<doctest test.txt[5]>, line 3)
+
+Next up, we're exploring the ellipsis.
+
+>>> sys.modules # doctest: +ELLIPSIS
+{...'sys': <module 'sys' (built-in)>...}
+
+>>> 'This is an expression that evaluates to a string'
+... # doctest: +ELLIPSIS
+'This is ... a string'
+
+>>> 'This is also a string' # doctest: +ELLIPSIS
+'This is ... a string'
+
+>>> import datetime
+>>> datetime.datetime.now().isoformat() # doctest: +ELLIPSIS
+'...-...-...T...:...:...'
+
+Next, a demonstration of whitespace normalization.
+
+>>> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+... # doctest: +NORMALIZE_WHITESPACE
+[1, 2, 3,
+ 4, 5, 6,
+ 7, 8, 9]
+
+>>> sys.stdout.write("This text\n contains weird    spacing.")
+... # doctest: +NORMALIZE_WHITESPACE
+This text contains weird spacing.
+
+Now we're telling doctest to skip a test
+
+>>> 'This test would fail.' # doctest: +SKIP
+If it were allowed to run.

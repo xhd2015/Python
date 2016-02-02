@@ -1,0 +1,37 @@
+>>> from mocker import Mocker
+
+>>> mocker = Mocker()
+>>> container = mocker.mock()
+>>> container['hi'] = 18
+>>> container['hi'] # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(18)
+>>> len(container)
+0
+>>> mocker.result(1)
+
+>>> 'hi' in container # doctest: +SKIP
+True
+>>> mocker.result(True)
+>>> iter(container) # doctest: +ELLIPSIS
+<...>
+>>> mocker.result(None)
+>>> del container['hi']
+>>> mocker.result(None)
+
+>>> mocker.replay()
+>>> container['hi'] = 18
+>>> container['hi']
+18
+>>> len(container)
+1
+>>> 'hi' in container # doctest: +SKIP
+True
+>>> for key in container:
+...     print key
+Traceback (most recent call last):
+TypeError: iter() returned non-iterator of type 'NoneType'
+>>> del container['hi']
+
+>>> mocker.restore()
+>>> mocker.verify()

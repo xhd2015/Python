@@ -1,0 +1,224 @@
+<html>
+<body>
+<p>Feature: Shopping cart</p>
+<p>
+  As a shopper<br/>
+  I want to load up items in my cart<br/>
+  So that I can check out and pay for them<br/>
+</p>
+
+	<table border="1">
+		<tr>
+			<th>Test Case</th>
+			<th>Steps</th>
+		</tr>
+    		<tr>
+			<td>Scenario: Seeing that an empty cart behaves correctly</td>
+      			<td>Given an empty cart</td>
+		</tr>
+		<tr>
+      			<td /><td>Then item</td><td>5</td><td>is a</td><td>ERROR</td>
+		</tr>
+		<tr>
+      			<td /><td>And price</td><td>-2</td><td>is</td><td>ERROR</td>
+		</tr>
+		<tr>
+			<td /><td>And the cart has</td><td>0</td><td>items</td>
+		</tr>
+      		<tr>
+      			<td /><td>And the total cost with</td><td>0</td><td>% taxes is</td><td>0.00</td>
+		</tr>
+		<tr>
+      			<td /><td>And the total cost with</td><td>10</td><td>% taxes is</td><td>0.00</td>
+		</tr>
+
+		<tr>
+    			<td>Scenario: Seeing a cart getting loaded with multiple of the same</td>
+      			<td>Given an empty cart</td>
+		</tr>
+      			<td /><td>When I add a </td><td>carton of milk</td><td>for</td><td>2.50</td>
+		</tr>
+		<tr>
+      			<td /><td>And I add a </td><td>carton of milk</td><td>for</td><td>2.50</td>
+		</tr>
+		<tr>
+      			<td /><td>Then item</td><td>1</td><td>is a</td><td>carton of milk</td>
+		</tr>
+		<tr>
+      			<td /><td>And price</td><td>1</td><td>is</td><td>5.00</td>
+		</tr>
+		<tr>
+      			<td /><td>And the cart has</td><td>2</td><td>items</td>
+		</tr>
+		<tr>
+      			<td /><td>And the total cost with</td><td>10</td><td>% taxes is</td><td>5.50</td>
+		</tr>
+		<tr>
+    			<td>Scenario: Seeing a cart getting loaded with different items</td>
+      			<td>Given an empty cart</td>
+		</tr>
+		<tr>
+      			<td /><td>When I add a </td><td>carton of milk</td><td>for</td><td>2.50</td>
+		</tr>
+		<tr>
+      			<td /><td>And I add a </td><td>frozen pizza</td><td>for</td><td>3.00</td>
+		</tr>
+		<tr>
+      			<td /><td>Then item</td><td>1</td><td>is a</td><td>carton of milk</td>
+		</tr>
+		<tr>
+      			<td /><td>And item</td><td>2</td><td>is a</td><td>frozen pizza</td>
+		</tr>
+		<tr>
+      			<td /><td>And price</td><td>1</td><td>is</td><td>2.50</td>
+		</tr>
+		<tr>
+      			<td /><td>And price</td><td>2</td><td>is</td><td>3.00</td>
+		</tr>
+      		<tr>
+      			<td /><td>And the total cost with</td><td>0</td><td>% taxes is</td><td>5.50</td>
+		</tr>
+		<tr>
+      			<td /><td>And the total cost with</td><td>10</td><td>% taxes is</td><td>6.05</td>
+		</tr>
+	</table>
+
+	<p>Here is where we define the actions in the Given-When-Then test cases.</p>
+
+	<table border="1">
+		<tr>
+			<th>Keyword</th>
+			<th>Action</th>
+			<th>Argument</th>
+			<th>Argument</th>
+			<th>Argument</th>
+		</tr>
+		<tr>
+			<td>Given an empty cart</td>
+			<td>create empty cart</td>
+		</tr>
+		<tr>
+			<td>Then item</td>
+			<td>[Arguments]</td>
+			<td>${index}</td>
+			<td>${noop}</td>
+			<td>${description}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>${fetched item}=</td>
+			<td>Lookup item</td>
+			<td>${index}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>Should Be Equal</td>
+			<td>${description}</td>
+			<td>${fetched item}</td>
+		</tr>
+		<tr>
+			<td>And item</td>
+			<td>[Arguments]</td>
+			<td>${index}</td>
+			<td>${noop}</td>
+			<td>${description}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>Then item</td>
+			<td>${index}</td>
+			<td>${noop}</td>
+			<td>${description}</td>
+		</tr>
+		<tr>
+			<td>And price</td>
+			<td>[Arguments]</td>
+			<td>${index}</td>
+			<td>${noop}</td>
+			<td>${price}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>${calc price}=</td>
+			<td>Lookup price</td>
+			<td>${index}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>Should Be Equal</td>
+			<td>${calc price}</td>
+			<td>${price}</td>
+		</tr>
+		<tr>
+			<td>When I add a</td>
+			<td>[Arguments]</td>
+			<td>${description}</td>
+			<td>${noop}</td>
+			<td>${price}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>add item</td>
+			<td>${description}</td>
+			<td>${price}</td>
+		</tr>
+                <tr>
+                        <td>And I add a</td>
+                        <td>[Arguments]</td>
+                        <td>${description}</td>
+                        <td>${noop}</td>
+                        <td>${price}</td>
+                </tr>
+                <tr>
+                        <td />
+                        <td>add item</td>
+                        <td>${description}</td>
+                        <td>${price}</td>
+                </tr>
+		<tr>
+			<td>And the cart has</td>
+			<td>[Arguments]</td>
+			<td>${num}</td>
+			<td>${noop}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>${size of cart}=</td>
+			<td>Size of cart</td>
+		</tr>
+		<tr>
+			<td>And the total cost with</td>
+			<td>[Arguments]</td>
+			<td>${tax}</td>
+			<td>${noop}</td>
+			<td>${total}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>${calc total}=</td>
+			<td>total</td>
+			<td>${tax}</td>
+		</tr>
+		<tr>
+			<td />
+			<td>Should Be Equal</td>
+			<td>${calc total}</td>
+			<td>${total}</td>
+		</tr>
+	</table>
+
+	<p>Finally, we need to link in some wiring to the ShoppingCart app.</p>
+
+	<table border="1">
+		<tr>
+			<th>Setting</th>
+			<th>Value</th>
+		</tr>
+		<tr>
+			<td>Library</td>
+			<td>recipe40.py</td>
+		</tr>
+	</table>
+
+</body>
+</html>

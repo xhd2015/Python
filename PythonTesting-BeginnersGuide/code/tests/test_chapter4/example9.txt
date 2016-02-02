@@ -1,0 +1,13 @@
+>>> from mocker import Mocker, MATCH
+>>> def is_odd(val):
+...     return val % 2 == 1
+>>> mocker = Mocker()
+>>> func = mocker.mock()
+>>> func(7, MATCH(is_odd)) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> mocker.replay()
+>>> func(7, 1001)
+5
+>>> mocker.restore()
+>>> mocker.verify()

@@ -1,0 +1,35 @@
+>>> from cart import *
+
+>>> cart = ShoppingCart()
+
+#when we add a cart of milk...
+>>> cart.add("carton of milk", 2.50) #doctest:+ELLIPSIS
+<cart.ShoppingCart object at ...>
+
+#when we add a frozen pizza...
+>>> cart.add("frozen pizza", 3.00) #doctest:+ELLIPSIS
+<cart.ShoppingCart object at ...>
+
+#the first item is the carton of milk
+>>> cart.item(1)
+'carton of milk'
+
+#the second item is the frozen pizza
+>>> cart.item(2)
+'frozen pizza'
+
+#the first price is $2.50
+>>> cart.price(1)
+2.5
+
+#the second price is $3.00
+>>> cart.price(2)
+3.0
+
+#the total with no tax is $5.50
+>>> cart.total(0.0)
+5.5
+
+#the total with 10% tax is $6.05
+>>> print round(cart.total(10.0), 2)
+6.05

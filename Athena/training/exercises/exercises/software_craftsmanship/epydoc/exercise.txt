@@ -1,0 +1,35 @@
+Generating Documentation with Epydoc
+------------------------------------
+
+Use Epydoc to generate the documentation for this module.
+[You may substitute the financial_module.py exercise
+or the inventory.py homework if you wish.]::
+ 
+    In [1]: !epydoc -v --html docstrings_epydoc.py
+
+Now view the documentation in a web browser::
+    
+    In [2]: !explorer html\index.html
+
+Now, using the epytext format, modify the prose version
+of the doc-strings to use some of the epydoc features, such as
+\@param to enhance the html output::
+
+    http://epydoc.sourceforge.net/epytext.html    
+
+Try 'cloc' to calculate the ratio of documentation
+to code in your example file::
+
+    In [58]: !cloc docstrings_epydoc.py
+      1 text file.
+      1 unique file.
+      0 files ignored.
+
+    http://cloc.sourceforge.net v 1.05  T=0.5 s (2.0 files/s, 142.0 lines/s)
+    ------------------------------------------------------------------------
+    Language  files     blank   comment      code    scale   3rd gen. equiv
+    ------------------------------------------------------------------------
+    Python      1        22        36        13 x   4.20 =          54.60
+    ------------------------------------------------------------------------
+      
+See: :ref:`docstring-epydoc-solution`.

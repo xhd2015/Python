@@ -1,0 +1,15 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/site_media/css/python_hol.css">
+</head>
+
+<body>
+<h1>Delete {{ object.first_name }} {{ object.last_name }}?</h1>
+{% if error_message %}
+  <p><strong>{{ error_message }}</strong></p>
+{% endif %}
+<form action="" method="post">{% csrf_token %} {{ form.as_p }}
+  <input type="submit" value="Yes" />
+</form>
+</body>
+</html>

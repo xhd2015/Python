@@ -1,0 +1,11 @@
+>>> from mocker import Mocker, CONTAINS
+>>> mocker = Mocker()
+>>> func = mocker.mock()
+>>> func(7, CONTAINS(45)) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> mocker.replay()
+>>> func(7, [12, 31, 45, 18])
+5
+>>> mocker.restore()
+>>> mocker.verify()

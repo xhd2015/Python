@@ -1,0 +1,12 @@
+>>> from mocker import Mocker, IS
+>>> mocker = Mocker()
+>>> param = [1, 2, 3]
+>>> func = mocker.mock()
+>>> func(7, IS(param)) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> mocker.replay()
+>>> func(7, param) # func(7, [1, 2, 3]) would fail
+5
+>>> mocker.restore()
+>>> mocker.verify()

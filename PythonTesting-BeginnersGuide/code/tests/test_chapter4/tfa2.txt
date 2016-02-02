@@ -1,0 +1,15 @@
+>>> from testable import testable
+>>> from mocker import Mocker
+>>> mocker = Mocker()
+
+>>> target = mocker.mock()
+>>> target.method1(12) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> target.method2(12) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(7)
+
+>>> mocker.replay()
+>>> testable.method3.im_func(target, 12)
+12

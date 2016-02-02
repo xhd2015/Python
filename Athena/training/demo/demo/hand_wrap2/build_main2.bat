@@ -1,0 +1,1 @@
+gcc -I. main2.c -o main2

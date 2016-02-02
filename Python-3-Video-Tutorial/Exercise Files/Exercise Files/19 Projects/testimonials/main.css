@@ -1,0 +1,67 @@
+/*
+    main.css by Bill Weinman <http://bw.org/contact/>
+    Copyright (c) 2010 The BearHeart Group, LLC
+    created 2010-06-18
+*/
+
+
+body  {
+    font-family: Lucida Grande, Tahoma, sans-serif;    /* default page font */
+    background: #fff;
+    margin: 0;          /* shorthand for all margins = 0 */
+    padding: 0;         /* no padding */
+}
+
+div#mainColumn {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* reasonable margin defaults */
+p, h1, h2, h3, h4, h5, h6, li {
+    margin: 1ex 0;
+}
+
+/* testimonials */
+
+#sidebar {
+    float:right;
+    width: 250px;
+    font-family: Lucida Grande, Tahoma, sans-serif;
+    border: solid 1px #999;
+    margin: 0 3px 5px 3px;
+}
+
+#sidebar p.title {
+    background-color: #333;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 2px 0 2px 0;
+    margin: 0;
+}
+
+div.testimonial p.testimonial {
+    color: #600000;
+    margin: 0 1ex 0 1ex;
+    font-size: 85%;
+}
+
+div.testimonial p.byline {
+    color: #606060;
+    font-family: georgia, serif;
+    font-style: italic;
+    margin: 0 1ex;
+    text-align: right;
+    font-size: 85%;
+}
+
+div.testimonial {
+    border-top: solid 1px black;
+    padding-top: 1ex;
+}
+
+#sidebar p.title + div.testimonial {
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
+}

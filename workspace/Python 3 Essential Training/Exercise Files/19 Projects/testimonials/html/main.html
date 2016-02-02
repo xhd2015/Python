@@ -1,0 +1,23 @@
+<div id="testimonialForm"> 
+<div id="topmatter">
+$MESSAGES$$ERRORS$
+</div>
+<h1> $pageTitle$ </h1>
+<form name="testimonial" method="post" action="$SELF$">
+    <p>Testimonial: </p>
+    <textarea name="testimonial">$testimonial$</textarea><br/>
+    <p>Byline: </p>
+    <input type="text" name="byline" value="$byline$" /><br/>
+    <input class="formSubmit" type="submit" value="Add Testimonial" />
+$hiddens$
+</form>
+<div id="reclist">
+<h1> Testimonials in the database </h1>
+$CONTENT$
+</div>
+</div>
+
+<!-- set the focus to the testimonial field -->
+<script language="javascript">
+    document.testimonial.testimonial.focus();
+</script>

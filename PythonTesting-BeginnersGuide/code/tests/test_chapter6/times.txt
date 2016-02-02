@@ -1,0 +1,11 @@
+>>> from time import time
+
+This isn't a reasonable test for any purpose, but it serves to
+illustrate a test that can't work without a mock object in place.
+
+>>> '%0.1f' % time()
+'1.0'
+>>> '%0.1f' % time()
+'1.1'
+>>> '%0.1f' % time()
+'1.2'

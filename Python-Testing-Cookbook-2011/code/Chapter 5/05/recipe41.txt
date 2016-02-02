@@ -1,0 +1,52 @@
+***Test Cases***
+Simple check of adding one item
+  Given an empty cart
+  When I add a  carton of milk  for  2.50
+  Then the total with   0   % tax is  2.50
+  And the total with   10   % tax is  2.75
+
+More complex by storing cart to database
+  [Documentation]  This test case has special tagging, so it can be excluded. This is in case the developer doesn't have the right database system installed to interact properly.cart.db
+  [Tags]  database
+  Given an empty cart
+  When I add a  carton of milk  for  2.50
+  And I add a   frozen pizza    for  3.50
+  And I store the cart
+  And I retrieve the cart
+  Then there are  2  items
+
+***Keywords***
+Given an empty cart
+  create empty cart
+
+When I add a
+  [Arguments]   ${description}  ${noop}  ${price}
+  add item   ${description}  ${price}
+
+And I add a
+  [Arguments]   ${description}  ${noop}  ${price}
+  add item   ${description}  ${price}
+
+Then the total with
+  [Arguments]  ${tax}  ${noop}  ${total}
+  ${calc total}=  total  ${tax}
+  Should Be Equal  ${calc total}  ${total}
+
+And the total with
+  [Arguments]  ${tax}  ${noop}  ${total}
+  Then the total with  ${tax}  ${noop}  ${total}
+
+And I store the cart
+  Set Test Variable  ${cart id}  store cart 
+
+And I retrieve the cart
+  retrieve cart  ${cart id}
+
+Then there are
+  [Arguments]  ${size}  ${noop}
+  ${calc size}=  Size of cart
+  Should Be Equal As Numbers  ${calc size}  ${size}
+
+***Settings***
+Library  recipe41.py
+

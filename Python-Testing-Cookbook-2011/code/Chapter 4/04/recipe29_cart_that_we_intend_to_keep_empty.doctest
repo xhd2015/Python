@@ -1,0 +1,24 @@
+>>> from cart import *
+
+#when we create an empty shopping cart
+>>> cart = ShoppingCart()
+
+#accessing an item out of range generates an exception
+>>> cart.item(5)
+Traceback (most recent call last):
+...
+IndexError: list index out of range
+
+#accessing a price with a negative index causes an exception
+>>> cart.price(-2)
+Traceback (most recent call last):
+...
+IndexError: list index out of range
+
+#calculating a price with no tax results in $0.00
+>>> cart.total(0.0)
+0.0
+
+#calculating a price with a tax results in $0.00
+>>> cart.total(10.0)
+0.0

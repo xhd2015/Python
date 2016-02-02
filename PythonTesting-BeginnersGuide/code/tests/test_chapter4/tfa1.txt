@@ -1,0 +1,60 @@
+>>> from mocker import Mocker
+>>> import operations
+
+We're going to test out the constructor for the multiply operation,
+first. Since all that the constructor has to do is record all of the
+operands, this is straightforward.
+
+>>> mocker = Mocker()
+>>> p1 = mocker.mock()
+>>> p2 = mocker.mock()
+
+>>> mocker.replay()
+
+>>> m = operations.multiply(p1, p2)
+>>> m.operands == (p1, p2)
+True
+
+>>> mocker.restore()
+>>> mocker.verify()
+
+Now we're going to check the evaluate method for the multiply
+operation. It should raise a ValueError if there are less than two
+operands, it should call the evaluate methods of all operations that
+are operands of the multiply, and of course it should return the
+correct value.
+
+>>> mocker = Mocker()
+>>> p1 = mocker.mock()
+>>> p1.evaluate({}) #doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(97.43)
+
+>>> mocker.replay()
+
+>>> m = operations.multiply(p1)
+>>> m.evaluate({})
+Traceback (most recent call last):
+ValueError: multiply without at least two operands is meaningless
+
+>>> mocker.restore()
+>>> mocker.verify()
+
+>>> mocker = Mocker()
+>>> p1 = mocker.mock()
+>>> p1.evaluate({}) #doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(97.43)
+>>> p2 = mocker.mock()
+>>> p2.evaluate({}) #doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(-16.25)
+
+>>> mocker.replay()
+
+>>> m = operations.multiply(p1, p2)
+>>> round(m.evaluate({}), 2)
+-1583.24
+
+>>> mocker.restore()
+>>> mocker.verify()

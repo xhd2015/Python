@@ -1,0 +1,8 @@
+To build this under windows, use build.bat
+
+    c:\...\swig> build.bat
+    
+Now run test_fact.py.  It should print:
+
+    c:\...\swig> test_fact.py
+    fact(10): 3628800    

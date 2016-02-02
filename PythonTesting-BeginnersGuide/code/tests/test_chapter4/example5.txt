@@ -1,0 +1,11 @@
+>>> from mocker import Mocker, KWARGS
+>>> mocker = Mocker()
+>>> func = mocker.mock()
+>>> func(7, KWARGS) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> mocker.replay()
+>>> func(7, a = 'this could be anything', b = 'so could this')
+5
+>>> mocker.restore()
+>>> mocker.verify()

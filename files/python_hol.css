@@ -1,0 +1,127 @@
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    background-color: white;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: #444444;
+    font-size: 8pt;
+}
+
+#content {
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+#employee_list_table {
+  border-collapse:collapse;
+  width: 80%;
+  border-color: white;
+}
+
+#employee_list_table th {
+  background-color:#1F75CC;
+  color:white;
+  font-size:13px;
+  text-align:left;
+  padding-top:2px;
+  padding-bottom:2px;
+  border-width: 2px;
+}
+
+#employee_list_table td, tr {
+  font-size:11px;
+  padding:2px;
+  border-width: 2px;
+}
+
+#employee_list_table tr:nth-child(even) {background-color: #FFFFFF}
+#employee_list_table tr:nth-child(odd) {background-color: #EDF3FE}
+#employee_list_table tr:nth-child(even):hover {background-color: #E8E8E8 	}
+#employee_list_table tr:nth-child(odd):hover {background-color: #E8E8E8 	}
+
+.page_list {
+	margin: 0px;
+	padding: 0px;
+    list-style-type: none;
+	font-weight: bold;
+}
+
+.page_list li  {
+    display: inline;
+}
+
+.page_list li a {
+    text-decoration: none;
+	padding: .2em .75em;
+	float: left;
+	width: 12px;
+}
+
+ .page_list a:visited {
+    color: black;
+}
+
+.page_list li a:hover {
+    text-decoration: line;
+	background-color: #1F75CC;
+	color: white;
+}
+
+#formdiv {
+  border-bottom:solid 1px #000000;
+  width:500px;
+  padding:14px;
+  margin-left: 100px;
+  display: block;
+}
+
+#formdiv h1 {
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom:8px;
+  border-bottom:solid 1px #000000;
+}
+
+#formdiv p {
+  font-size:11px;
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+
+#formdiv input , select {
+  width:250px;
+}
+
+#formdiv label {
+  display:block;
+  font-weight:bold;
+  text-align:right;
+  width:190px;
+  float:left;
+  padding-right:10px;
+  font-size:12px
+}
+
+#formdiv button {
+  font-size:14px;
+  font-weight:bold;
+  display:block;
+  float:right;
+  margin-top:40px;
+}
+
+.errorlist {
+  color:red;
+  display:block;
+  font-size:11px;
+  font-weight:normal;
+  text-align:right;
+  width:190px;
+  padding:0;
+  margin:0;
+}
+
+.errorlist  li{ 
+  list-style-type:none;
+}

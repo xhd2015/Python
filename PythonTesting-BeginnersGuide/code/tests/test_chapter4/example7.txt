@@ -1,0 +1,21 @@
+>>> from mocker import Mocker, IN
+>>> mocker = Mocker()
+>>> func = mocker.mock()
+>>> func(7, IN([45, 68, 19])) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> func(7, IN([45, 68, 19])) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> func(7, IN([45, 68, 19])) # doctest: +ELLIPSIS
+<mocker.Mock object at ...>
+>>> mocker.result(5)
+>>> mocker.replay()
+>>> func(7, 19)
+5
+>>> func(7, 19)
+5
+>>> func(7, 45)
+5
+>>> mocker.restore()
+>>> mocker.verify()
