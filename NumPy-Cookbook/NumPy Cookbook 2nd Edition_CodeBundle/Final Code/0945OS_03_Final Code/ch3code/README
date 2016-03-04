@@ -1,0 +1,10 @@
+README
+
+erastothenes.py Sieving Integers with the Sieve of Erasthothenes.
+fermatfactor.py Finding prime factors.
+palindromic.py Finding palindromic numbers.
+periodic.py Trading periodically on dips.
+powerlaw.py Discovering a power law.
+random_periodic.py Simulating Trading at random.
+steady_state_vector.py Steady State Vector determination.
+sum_fibonacci.py Summing Fibonacci numbers.

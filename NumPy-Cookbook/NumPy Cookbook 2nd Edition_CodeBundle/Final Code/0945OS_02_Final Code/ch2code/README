@@ -1,0 +1,12 @@
+README Chapter 2
+
+
+boolean_indexing.py Indexing with booleans.
+check_scipy.py Checks the SciPy version.
+copy_view.py Comparing views and copies.
+fancy.py Fancy indexing.
+flip_lena.py Flipping Lena.
+ix.py Indexing with a list of locations.
+resize_lena.py Resizing images.
+strides.py Stride tricks for Sudoku.
+broadcasting.py Broadcasting arrays.
